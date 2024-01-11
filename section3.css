@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+   
+}
+body{
+    margin: 0;
+}
+.sec-3{
+    background-color: #1E1E1E;
+    margin-bottom: 100%;
+}
+.text-1{
+    position: absolute;
+    left: 250px;
+    z-index: 0;
+}
+.text-1 .box-1 {
+    margin-top: 50px;
+    width: 200px;
+    height: auto;
+    padding:0;
+    text-align: center;
+    border-radius: 50px;
+    background-color:burlywood;
+    overflow: hidden;
+}
+.text-2{
+    position: absolute;
+    right: 450px;
+    z-index: 0;
+}
+.text-2 .box-2 {
+    margin-top: 5px;
+    width: 150px;
+    height: auto;
+    padding:0;
+    text-align: center;
+    border-radius: 50px;
+    background-color:burlywood;
+    overflow: hidden;
+}
+.text-3{
+    position: absolute;
+    right: 200px;
+    z-index: 2;
+}
+.text-3 .box-3 {
+    margin-top: 250px;
+    width: 200px;
+    height: auto;
+    padding:0;
+    text-align: center;
+    border-radius: 50px;
+    background-color:burlywood;
+    overflow: hidden;
+}
+.text-4{
+    position: absolute;
+    left: 150px;
+    z-index: 0;
+}
+.text-4 .box-4 {
+    margin-top: 550px;
+    width: 200px;
+    height: auto;
+    padding:0;
+    text-align: center;
+    border-radius: 50px;
+    background-color:burlywood;
+    overflow: hidden;
+}
+.text-5{
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+}
+.text-5 .box-5 {
+    margin-top: 550px;
+    width: 200px;
+    height: auto;
+    padding:0;
+    text-align: center;
+    border-radius: 50px;
+    background-color:burlywood;
+    overflow: hidden;
+}
+.box-1:hover{
+    height: 100px;
+    transition: 0.3s;
+}
+.shirt-img-1{
+    margin-top: 150px;
+    position: absolute;
+    right: 60%;
+    z-index: -2;
+}
+.shirt-img-1 .shirt-1{
+    width: 300px; 
+}
+.shirt-img-2{
+    margin-top: 250px;
+    position: absolute;
+    right: 45%;
+    rotate:z -5deg;
+    z-index: -3;
+}
+.shirt-img-2 .shirt-2{
+    width: 300px; 
+}
+.shirt-img-3{
+    margin-top: 90px;
+    position: absolute;
+    right: 50%;
+    z-index: -4;
+    rotate:z -10deg;
+}
+.shirt-img-3 .shirt-3{
+    width: 300px;
+}
+.shirt-img-4{
+    margin-top: 130px;
+    position: absolute;
+    right: 30%;
+    z-index: -3;
+    rotate:5deg;
+}
+.shirt-img-4 .shirt-4{
+    width: 300px;
+}
+.shirt-img-5{
+    margin-top: 90px;
+    position: absolute;
+    right: 20%;
+    z-index: -4;
+    rotate:10deg;
+}
+.shirt-img-5 .shirt-5{
+    width: 300px;
+}
+.shirt-img-6{
+    margin-top: 400px;
+    position: absolute;
+    right: 25%;
+    z-index: 0;
+    
+}
+.shirt-img-6 .shirt-6{
+    width: 150px;
+}
+.shirt-img-7{
+    margin-top: 450px;
+    position: absolute;
+    right: 58%;
+    z-index: -2;
+}
+.shirt-img-7 .shirt-7{
+    width: 400px; 
+    height: 150px;
+}
+.shirt-img-8{
+    margin-top:30px;
+    position: absolute;
+    right: 35%;
+    z-index: -5;
+    rotate:10deg;
+}
+.shirt-img-8 .shirt-8{
+    width: 300px;
+}
+.shirt-img-9{
+    margin-top:250px;
+    position: absolute;
+    right: 20%;
+    z-index: -5;
+    rotate:z -5deg;
+}
+.shirt-img-9 .shirt-9{
+    width: 300px;
+}
+.line-1{
+    position: absolute;
+    left: 400px;
+    z-index: -1;
+}
+.line-1 .line-text1{
+    margin-top: 60px;
+    background-color: burlywood;
+    width: 3px;
+    height: 150px;
+    rotate:z -45deg;
+}
+.line-2{
+    position: absolute;
+    right: 37%;
+    z-index: -1;
+}
+.line-2 .line-text2{
+    margin-top: 30px;
+    background-color: burlywood;
+    width: 3px;
+    height: 150px;
+    rotate: 40deg;
+}
+.line-3{
+    position: absolute;
+    right: 22%;
+    z-index: 1;
+}
+.line-3 .line-text3{
+    margin-top: 250px;
+    background-color: burlywood;
+    width: 3px;
+    height: 200px;
+    rotate: 40deg;
+}
+.line-4{
+    position: absolute;
+    left: 19%;
+    z-index: 1;
+}
+.line-4 .line-text4{
+    margin-top: 470px;
+    background-color: burlywood;
+    width: 3px;
+    height: 100px;
+    rotate: 50deg;
+}
+.line-5{
+    position: absolute;
+    right: 35%;
+    z-index: 1;
+}
+.line-5 .line-text5{
+    margin-top: 500px;
+    background-color: burlywood;
+    width: 3px;
+    height: 100px;
+    rotate: 60deg;
+}
+
+
+
+.circle-1{
+    position: absolute;
+    left: 445px;
+    z-index: -1;
+}
+.circle-1 .cir-1{
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-top: 180px;
+    width: 20px;
+    height: 20px;
+}
+.circle-2{
+    position: absolute;
+    right: 39.5%;
+    z-index: -1;
+}
+.circle-2 .cir-2{
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-top: 150px;
+    width: 20px;
+    height: 20px;
+}
+.circle-3{
+    position: absolute;
+    right: 26%;
+    z-index: 2;
+}
+.circle-3 .cir-3{
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-top: 420px;
+    width: 20px;
+    height: 20px;
+}
+.circle-4{
+    position: absolute;
+    left: 21%;
+    z-index: 2;
+}
+.circle-4 .cir-4{
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-top: 480px;
+    width: 20px;
+    height: 20px;
+}
+.circle-5{
+    position: absolute;
+    right: 31%;
+    z-index: 2;
+}
+.circle-5 .cir-5{
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-top: 510px;
+    width: 20px;
+    height: 20px;
+}

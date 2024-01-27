@@ -8,7 +8,7 @@ body{
     background-color: #79A3B3;
     overflow-x: hidden;
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
 .navbar {
@@ -18,7 +18,6 @@ body{
     top: 0;
     z-index: 99;
 }
-
 .nav {
     margin-left: 10%;
     margin-right: 5%;
@@ -30,30 +29,24 @@ body{
 .nav a img {
     width: 100px;
 }
-
 .nav #myLinks {
     display: none;
     right: 0%;
 }
-
 .nav a.icon {
     display: block;
 }
-
 .icon {
     cursor: pointer;
     border: none;
 }
-
 .icon svg {
     width: 25px;
     fill: #111;
 }
-
 .icon svg:hover {
     fill: #818181;
 }
-
 .slide_nav {
     height: 230px;
     width: 0;
@@ -65,7 +58,6 @@ body{
     padding-top: 60px;
     transition: 0.5s;
 }
-
 .slide_nav .list {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -75,12 +67,10 @@ body{
     font-weight: 500;
     transition: 0.3s;
 }
-
 .slide_nav .list:hover {
     background-color: #D9D9D9;
     font-size: 20px;
 }
-
 .slide_nav .closebtn {
     text-decoration: none;
     font-size: 45px;
@@ -92,18 +82,15 @@ body{
     right: 0%;
     height: 45px;
 }
-
 .closebtn svg {
     fill: #111;
     top: 0;
     width: 40px;
     height: 40px;
 }
-
 .closebtn svg:hover {
     fill: #f1f1f1;
 }
-
 .sticky {
     margin-top: 20px;
     position: fixed;
@@ -125,35 +112,32 @@ body{
 
 .cover .wrapper_1 {
     position: absolute;
-    right: -7%;
-    top: -25%;
+    margin: -12% 75%;
+   
 }
 .wrapper_1 img {
     width: 500px;
 }
 .cover .wrapper_2 {
     position: absolute;
-    right: 25%;
-    top: 26%;
+    margin: 12% 67%;
 }
 .wrapper_2 img {
     width: 130px;
 }
 .cover .wrapper_3 {
     position: absolute;
-    right: 14.5%;
-    top: 40.5%;
+    margin: 21% 0;
 }
 .wrapper_3 img {
-    width: 530px;
+    width: 100vw;
 }
 
 
 .title .paper_1 {
     position: absolute;
-    top: 20%;
     z-index: 1;
-    left: 10%;
+    margin: -40% 10%;
 }
 .paper_1 img{
     width: 310px;
@@ -161,45 +145,40 @@ body{
 
 .title .fast_1{
     position: absolute;
-    top: 17%;
     z-index: 2;
-    left: 12%;
+    margin: -41% 12%;
 }
 .fast_1 img{
     width: 70px;
 }
 .title .fast_2{
     position: absolute;
-    top: 20%;
     z-index: 2;
-    left: 16%;
+    margin: -40% 16%;
 }
 .fast_2 img{
     width: 70px;
 }
 .title .fast_3{
     position: absolute;
-    top: 20%;
     z-index: 2;
-    left: 21%;
+    margin: -40% 21%;
 }
 .fast_3 img{
     width: 45px;
 }
 .title .fast_4{
     position: absolute;
-    top: 21%;
     z-index: 2;
-    left: 24%;
+    margin: -40% 24%;
 }
 .fast_4 img{
-    width: 45px;
+    width: 50px;
 }
 .title .braek{
     position: absolute;
-    top: 18%;
     z-index: 2;
-    left: 26%;
+    margin: -41% 26%;
 }
 .braek img{
     width: 50px;
@@ -207,9 +186,8 @@ body{
 
 .title .paper_2{
     position: absolute;
-    top: 33%;
     z-index: 1;
-    left: 10%;
+    margin: -34% 10%;
 }
 
 .paper_2 img{
@@ -217,63 +195,56 @@ body{
 }
 .title .fashion_1{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 12%;
+    margin: -33% 12%;
 }
 .fashion_1 img{
-    width: 35px;
+    width: 33px;
 }
 .title .fashion_2{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 14%;
+    margin: -33% 14%;
 }
 .fashion_2 img{
     width: 70px;
 }
 .title .fashion_3{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 19%;
+    margin: -33% 19%;
 }
 .fashion_3 img{
     width: 45px;
 }
 .title .fashion_4{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 22%;
+    margin: -33% 22%;
 }
 .fashion_4 img{
     width: 60px;
 }
 .title .fashion_5{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 26%;
+    margin: -33% 26%;
 }
 .fashion_5 img{
     width: 30px;
 }
 .title .fashion_6{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 28%;
+    margin: -34% 28%;
 }
 .fashion_6 img{
     width: 70px;
 }
 .title .fashion_7{
     position: absolute;
-    top: 35%;
     z-index: 2;
-    left: 33%;
+    margin: -33% 33%;
 }
 .fashion_7 img{
     width: 55px;
@@ -281,9 +252,8 @@ body{
 
 .title .caption{
     position: absolute;
-    top: 52%;
     z-index: 2;
-    left: 10%;
+    margin: -24% 10%;
 }
 .caption img{
     width: 250px;
@@ -291,20 +261,10 @@ body{
 
 .title .bg{
     position: absolute;
-    top: 55%;
     z-index: -2;
+    margin: -23% 0;
 }
 .bg img{
     width: 100vw;
 }
-.leak{
-    position: absolute;
-    top: 85%;
-    z-index: -2;
-    
-}
-.leak img{
-    width: 100%;
-}
-
 }

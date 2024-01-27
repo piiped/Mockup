@@ -4,13 +4,13 @@
     font-family: 'Prompt', sans-serif;
 }
 body{
-    margin: 0;
+    margin: auto;
 }
 .sec-2 {
     color: aliceblue;
     padding-top: 10%;
     position: relative;
-    padding-bottom: 20%;
+    padding-bottom: 50%;
     overflow: hidden;
     background-color: #1E1E1E;
     

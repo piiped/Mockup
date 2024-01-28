@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    margin: auto;
+}
+.sec-5{
+    background-image: linear-gradient(#79A3B3, #8C9592);
+    height: 1250px;
+}
+.sec-5 .sec-5-text1{
+    padding-top: 380px;
+}
+.sec-5-text1 p{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.sec-5-text2 p{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.group .cloud{
+    position: absolute;
+    margin-top: 200px;
+    
+}
+.group .jean{
+    position: absolute;
+    margin: 20% 1%;
+}
+.group .clay{
+    position: absolute;
+    margin-top: 23%;
+    width:fit-content;
+}

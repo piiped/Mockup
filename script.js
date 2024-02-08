@@ -18,6 +18,24 @@ tlSplitGreat.from(chars, {
 }, "+=0");
 
 
+
+// Scroll to a given hash, preventing the event given if there is one
+function scrollToHash(hash, e) {
+  const elem = hash ? document.querySelector(hash) : false;
+  if(elem) {
+    if(e) e.preventDefault();
+    gsap.to(window, {scrollTo: elem});
+  }
+}
+document.querySelectorAll('a[href]').forEach(a => {
+  a.addEventListener('click', e => {
+    scrollToHash(getSamePageAnchor(a), e);
+  });
+});
+
+// Scroll to the element in the URL's hash on load
+scrollToHash(window.location.hash);
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.set(".wrapper_2", {yPercent:0});
@@ -311,3 +329,24 @@ gsap.to(".cloud_cover", {
     scrub: 3
   }
 });
+
+// gsap.set(".sec-5-text1", { yPercent: -60});
+// gsap.to(".sec-5-text1", {
+//   yPercent: 70,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".sec-5-text1",
+//     scrub: 1
+//   }
+// });
+
+// gsap.set(".sec-5-text2", { yPercent: 100});
+// gsap.to(".sec-5-text2", {
+//   yPercent: 350,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".sec-5-text2",
+//     scrub: 1
+   
+//   }
+// });

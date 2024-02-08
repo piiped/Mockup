@@ -7,10 +7,11 @@ body{
 }
 .sec-5{
     background-image: linear-gradient(#79A3B3, #8C9592,#1A0F2F);
-    height: 1900px;
+    height: 1800px;
+    margin-bottom: 0;
 }
 .sec-5 .sec-5-text1{
-    padding-top: 380px;
+    padding-top: 260px;
 }
 .sec-5-text1 p{
     text-align: center;

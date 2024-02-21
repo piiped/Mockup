@@ -46,7 +46,7 @@ body{
 .text-3{
     position: absolute;
     margin: 15% 67%;
-    z-index: 2;
+    z-index: 4;
 }
 .text-3 .box-3 {
     width: 200px;

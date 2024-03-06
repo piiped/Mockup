@@ -123,3 +123,13 @@ body{
 .parallax img{
     width: 100vw;
 }
+
+.banner{
+    opacity: 0;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    border-radius: 25px;
+    background-color:#F49807;
+    overflow: hidden;
+}

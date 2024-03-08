@@ -10,7 +10,9 @@ body{
     width: 100%;
     margin: auto;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .navbar {
     margin: 5px;
     position: -webkit-sticky;

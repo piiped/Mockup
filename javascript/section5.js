@@ -1,46 +1,34 @@
-gsap.set(".sec-5-text", { yPercent : -10});
+gsap.set(".sec-5-text", { yPercent: 0 });
 gsap.to(".sec-5-text", {
-  yPercent: 250,
+  yPercent: 90,
   ease: "none",
   scrollTrigger: {
     trigger: ".sec-5-text",
     start: "center 5%", 
-    end: "+=800", 
+    end: "+=300", 
     scrub: 2,
     duration:2,
-    markers: true
   }, 
 });
 
-gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".box3", {
-  scale: 2,
-  transformOrigin: "center center",
-  ease: "power1.inOut",
-  scrollTrigger: {
-    trigger: ".box1",
-    start: "top top",
-    end: "+=300",
-    markers: true,
-    scrub: 3
-  }
-});
+
+// const parallaxImage = document.querySelector('.parallax-image');
 
 //zoom
-gsap.to(".box3", {
-  scale: 7,
-  transformOrigin: "center center",
-  ease: "power1.inOut",
-  immediateRender: false,
-  scrollTrigger: {
-    trigger: ".box2",
-    start: "top top",
-    end: "+=300",
-    markers: true,
-    scrub: 3
-  }
-});
+// gsap.to(".box3", {
+//   scale: 7,
+//   transformOrigin: "center center",
+//   ease: "power1.inOut",
+//   immediateRender: false,
+//   scrollTrigger: {
+//     trigger: ".box2",
+//     start: "top top",
+//     end: "+=300",
+//     markers: true,
+//     scrub: 3
+//   }
+// });
 
 //zoom
 // gsap.to(".group", {
@@ -70,59 +58,123 @@ gsap.to(".box3", {
 //     scrub: 0.5
 //   }
 // });
+gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
 
-// gsap.set(".group", { yPercent : 0});
-// gsap.to(".group", {
-//   xPercent: 0, 
-//   yPercent: -10,
-//   scale: 1.5,
-//   transformOrigin: "left top", 
-//   ease: "none",
-//   normalizeScroll: true,
-//   scrollTrigger: {
-//     trigger: ".group",
-//     start: "top 10%", 
-//     end: "top 15%", 
-//     scrub: 1,
-//     duration:10,
-//     markers: true
-//   }, 
-// });
+//สร้าง timeline ให้กับ parallax
+const tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".parallax",
+    scrub: 1,
+    start: "top+=250px top",
+    // end: "bottom+=50px bottom",
+    end: "bottom+=2000",
+    // markers: true,
+  },
+});
 
+tl.to(".parallax", {
+  yPercent: 5,
+  xPercent: 20,
+  scale: 1.5,
+  ease: "power1.out",
+  duration: 2,
+})
 
-// gsap.set(".parallax-image", { yPercent : 0});
-// gsap.to(".parallax-image", {
-//   xPercent: 0, 
-//   yPercent: -10,
-//   scale: 1.5,
-//   transformOrigin: "left top", 
-//   ease: "none",
-//   normalizeScroll: true,
-//   scrollTrigger: {
-//     trigger: ".parallax-image",
-//     start: "top 10%", 
-//     end: "top 15%", 
-//     scrub: 1,
-//     duration:10,
-//     markers: true
-//   }, 
-// });
+  .to("#sec5-1", {
+    opacity: 1,
+    duration: 1,
+  })
+  .to(".parallax", {
+    duration: 2,
+  })
+  .to("#sec5-1", {
+    opacity: 0,
+    duration: 1,
+  })
 
-// gsap.to(".parallax-image", {
-//   xPercent: 0, 
-//   yPercent: -10,
-//   scale: 1.5,
-//   transformOrigin: "right top", 
-//   ease: "none",
-//   normalizeScroll: true,
-//   scrollTrigger: {
-//     trigger: ".parallax-image",
-//     start: "center 25%", 
-//     end: "center 60%", 
-//     scrub: 1,
-//     duration:5,
-//     markers: true
-//   }, 
-// });
+  .to(".parallax", {
+    yPercent: 22,
+    xPercent: -22,
+    scale: 1.5,
+    ease: "power1.out",
+    duration: 2,
+  })
 
+  .to("#sec5-2", {
+    opacity: 1,
+    duration: 2,
+  })
+  .to(".parallax", {
+    duration: 2,
+  })
+  .to("#sec5-2", {
+    opacity: 0,
+    duration: 2,
+  })
 
+  .to(".parallax", {
+    yPercent: -10,
+    xPercent: -26,
+    scale: 1.5,
+    ease: "none",
+    duration: 2,
+  })
+  .to("#sec5-3", {
+    opacity: 1,
+    duration: 1,
+  })
+  .to(".parallax", {
+    duration: 2,
+  })
+  .to("#sec5-3", {
+    opacity: 0,
+    duration: 1,
+  })
+
+  .to(".parallax", {
+    yPercent: -48,
+    xPercent: -26,
+    scale: 1.5,
+    ease: "none",
+    duration: 2,
+  })
+  .to("#sec5-4", {
+    opacity: 1,
+    duration: 1,
+  })
+  .to(".parallax", {
+    duration: 2,
+  })
+  .to("#sec5-4", {
+    opacity: 0,
+    duration: 1,
+  })
+
+  .to(".parallax", {
+    xPercent: 12,
+    scale: 1.5,
+    ease: "none",
+    duration: 2,
+  })
+  .to("#sec5-5", {
+    opacity: 1,
+    duration: 1,
+  })
+  .to(".parallax", {
+    duration: 2,
+  })
+  .to("#sec5-5", {
+    opacity: 0,
+    duration: 1,
+  })
+
+  .to(".parallax", {
+    yPercent: -8,
+    xPercent: 0,
+    scale: 1,
+    ease: "power1.out",
+    duration: 2,
+  })
+  .to(".parallax", {
+    duration: 1,
+  });

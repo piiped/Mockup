@@ -44,7 +44,7 @@ ScrollTrigger.create({
 gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
 
 //สร้าง timeline ให้กับ parallax
-const tl = gsap.timeline({
+const tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".parallax",
     scrub: 1,
@@ -55,13 +55,14 @@ const tl = gsap.timeline({
   },
 });
 
-tl.to(".parallax", {
-  yPercent: 5,
-  xPercent: 20,
-  scale: 1.5,
-  ease: "power1.out",
-  duration: 2,
-})
+tl5
+  .to(".parallax", {
+    yPercent: 5,
+    xPercent: 20,
+    scale: 1.5,
+    ease: "power1.out",
+    duration: 2,
+  })
 
   .to("#sec5-1", {
     opacity: 1,

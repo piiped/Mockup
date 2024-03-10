@@ -76,3 +76,53 @@ body{
     top:50vh;
       left:50vw;
   }
+
+.banner{
+    opacity: 0;
+    text-align: left;
+    border-radius: 20px;
+    background: #FFF;
+    overflow: hidden;
+    position: absolute;
+    z-index: 90;
+    flex-shrink: 0;
+    padding: 20px;
+}
+.banner-head{
+    color: #000;
+    font-family: Prompt;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+}
+.banner-text{
+    color: #000;
+    font-family: Prompt;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: normal;
+}
+#sec5-1{
+    top: 28%;
+    left: 35%;
+   
+}
+#sec5-2{
+    top: 10%;
+    left: 62%;
+   
+}
+#sec5-3{
+    top: 28%;
+    left: 40%;
+  
+}
+#sec5-4{
+    top: 54%;
+    left: 40%;
+}
+#sec5-5{
+    top: 54%;
+    left: 44%;
+}

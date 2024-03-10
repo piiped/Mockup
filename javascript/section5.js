@@ -11,18 +11,6 @@ gsap.to(".sec-5-text", {
   },
 });
 
-// gsap.set(".parallax", { yPercent: 10 });
-// gsap.to(".parallax", {
-//   yPercent: 0,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".parallax",
-//     scrub: 1,
-//     start: "top bottom",
-//     end: " +=100",
-//     // markers: true,
-//   },
-// });
 
 //pin ให้sec5 อยู่กับหน้าจอ
 ScrollTrigger.create({
@@ -47,7 +35,7 @@ gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
 const tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".parallax",
-    scrub: 1,
+    scrub:3,
     start: "top+=250px top",
     // end: "bottom+=50px bottom",
     end: "bottom+=2000",
@@ -59,7 +47,7 @@ tl.to(".parallax", {
   yPercent: 5,
   xPercent: 20,
   scale: 1.5,
-  ease: "power1.out",
+  ease: "power4.out",
   duration: 2,
 })
 
@@ -79,7 +67,7 @@ tl.to(".parallax", {
     yPercent: 22,
     xPercent: -22,
     scale: 1.5,
-    ease: "power1.out",
+    ease: "power4.out",
     duration: 2,
   })
 
@@ -99,7 +87,7 @@ tl.to(".parallax", {
     yPercent: -10,
     xPercent: -26,
     scale: 1.5,
-    ease: "none",
+    ease: "power4.out",
     duration: 2,
   })
   .to("#sec5-3", {
@@ -118,7 +106,7 @@ tl.to(".parallax", {
     yPercent: -48,
     xPercent: -26,
     scale: 1.5,
-    ease: "none",
+    ease: "power4.out",
     duration: 2,
   })
   .to("#sec5-4", {
@@ -136,7 +124,7 @@ tl.to(".parallax", {
   .to(".parallax", {
     xPercent: 12,
     scale: 1.5,
-    ease: "none",
+    ease: "power4.out",
     duration: 2,
   })
   .to("#sec5-5", {
@@ -155,7 +143,7 @@ tl.to(".parallax", {
     yPercent: -8,
     xPercent: 0,
     scale: 1,
-    ease: "power1.out",
+    ease: "power4.out",
     duration: 2,
   })
   .to(".parallax", {

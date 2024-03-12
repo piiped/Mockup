@@ -11,6 +11,9 @@ body{
     background-image: linear-gradient(#FA9396, #F49807, #79A3B3 );
 
 }
+.cloud{
+    margin-bottom: 0;
+}
 .cloud .c_1{
     position: absolute;
     margin: -2% -15%;

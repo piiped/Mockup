@@ -1,0 +1,90 @@
+/* .group .sun{
+    position: absolute;
+    margin: 10% 80%;
+}
+.sun img{
+    width: 80px;
+}
+.group .cloud_group{
+    position: absolute;
+    margin-top: 220px;
+    margin-bottom: 0;
+}
+.cloud_group img{
+    width: 100%;
+    height: 50%;
+}
+.group .jean{
+    position: absolute;
+    margin-top: 20%;
+}
+.jean img{
+    width: 100vw;
+}
+.group .clay{
+    position: absolute;
+    margin-top: 19%;
+}
+.clay img{
+    width: 100vw;
+}
+.group .water{
+    position: absolute;
+    margin-top:49% ;
+}
+.water img{
+    width: 100vw;
+    height: 350px;
+}
+.group .land{
+    position: absolute;
+    margin-top: 19%;
+}
+.land img{
+    width: 100vw;
+}
+.group .blender{
+    position: absolute;
+    margin: 20% 9%;
+}
+.blender img{
+    width: 388px;
+}
+.group .factory{
+    position: absolute;
+    margin: 10% 70%;
+}
+.factory img{
+    width: 577px;
+}
+.group .tree{
+    position: absolute;
+    margin-top: 13%;
+}
+.tree img{
+    width: 100vw;
+}
+.group .fish{
+    position: absolute;
+    margin: 50% 12%;
+}
+.fish img{
+    width: 332px;
+}
+.group .pipe{
+    position: absolute;
+    margin: 52% 70%;
+}
+.pipe img{
+    width: 460px;
+} */
+
+
+/* .parallax img{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.parallax img .parallax-image{
+    z-index: 3;
+} */

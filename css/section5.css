@@ -6,19 +6,12 @@ body{
     margin: auto;
 }
 .sec-5{
-    background-image: linear-gradient(#79A3B3, #8C9592);
-    height: 150vh;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    background-image: linear-gradient(#79A3B3, #8C9592,#1A0F2F);
+    height: 160vh;
+
 }
 
-/* .sec-5 .cloud_cover2{
-    position: absolute;
-    z-index: 2;
-    transition: ease-in;
-} */
-
-.sec-5 .sec-5-text1{
+.sec-5 .sec-5-text{
     padding-top: 170px;
 }
 .sec-5-text1 p{
@@ -40,96 +33,116 @@ body{
 }
 
 
-.group .sun{
+.group{
+    height: auto;
+    position: relative;
+}
+.group .parallax{
     position: absolute;
-    margin: 10% 80%;
 }
-.sun img{
-    width: 80px;
-}
-.group .sec-5-cloud{
-    position: absolute;
-    margin-top: 220px;
-    margin-bottom: 0;
-}
-.sec-5-cloud img{
-    width: 100vw;
-}
-.group .jean{
-    position: absolute;
-    margin-top: 20%;
-}
-.jean img{
-    width: 100vw;
-}
-
-.group .clay{
-    position: absolute;
-    margin-top: 19%;
-}
-.clay img{
-    width: 100vw;
-}
-.group .water{
-    position: absolute;
-    margin-top:49% ;
-}
-.water img{
-    width: 100vw;
-}
-.group .land{
-    position: absolute;
-    margin-top: 19%;
-}
-.land img{
-    width: 100vw;
-}
-.group .blender{
-    position: absolute;
-    margin: 20% 9%;
-}
-.blender img{
-    width: 388px;
-}
-.group .factory{
-    position: absolute;
-    margin: 10% 70%;
-}
-.factory img{
-    width: 577px;
-}
-.group .tree{
-    position: absolute;
-    margin-top: 13%;
-}
-.tree img{
-    width: 100vw;
-}
-.group .fish{
-    position: absolute;
-    margin: 50% 12%;
-}
-.fish img{
-    width: 332px;
-}
-.group .pipe{
-    position: absolute;
-    margin: 52% 70%;
-}
-.pipe img{
-    width: 460px;
-}
-
 .parallax img{
+
     width: 100vw;
+    height: 100%;
 }
+.container {
+    height: 5000px; /* Altezza estesa */
+    max-width: 1200px;
+    margin: 0 auto;
+    transform-origin: center center;
+    background-color: #F2F2F2;
+  }
+  
+  .box {
+    width:30px;
+    height:30px;
+    position:absolute;
+  }
+  .box0 {
+    background:blue;
+    top: 0;
+  }
+  .box1 {
+    background:red;
+    top: 150vh;
+  }
+  .box2 {
+    background:yellow;
+    top: 300vh;
+  }
+  .box3 {
+    position:fixed;
+    background:green;
+    top:50vh;
+      left:50vw;
+  }
 
 .banner{
     opacity: 0;
-    width: 200px;
-    padding: 0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
+    text-align: left;
+    border-radius: 20px;
+    background: #FFF;
     overflow: hidden;
+    position: absolute;
+    z-index: 90;
+    flex-shrink: 0;
+    padding: 20px;
+}
+.banner-head{
+    color: #000;
+    font-family: Prompt;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+}
+.banner-text{
+    color: #000;
+    font-family: Prompt;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: normal;
+}
+#sec5-1{
+    top: 28%;
+    left: 35%;
+   
+}
+#sec5-2{
+    top: 10%;
+    left: 62%;
+   
+}
+#sec5-3{
+    top: 28%;
+    left: 40%;
+  
+}
+#sec5-4{
+    top: 54%;
+    left: 40%;
+}
+#sec5-5{
+    top: 54%;
+    left: 44%;
+}
+
+.sec-5-div .sec-5-bg{
+    position: absolute;
+    margin-top: 220%;
+    z-index: 1;
+}
+
+.sec-5 .sec-5-title{
+    padding-top: 850px;
+    z-index: 2;
+    align-items: center;
+    position: relative;
+}
+.sec-5-title p{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight:900;
+    z-index: 2;
 }

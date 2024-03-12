@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    margin: auto;
+}
+.sec-6{
+    background-color: #1E1E1E;
+    height: 160vh;
+
+}
+.sec-6 .sec-6-title{
+    padding-top: 850px;
+    z-index: 2;
+    align-items: center;
+    position: relative;
+}
+.sec-6-title p{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    font-weight:900;
+    z-index: 2;
+}

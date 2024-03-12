@@ -16,7 +16,7 @@ gsap.to(".sec-5-text", {
 ScrollTrigger.create({
   trigger: ".parallax",
   start: "top-=50px top",
-  end: "bottom+=2100 top",
+  end: "bottom+=2000 top",
   pin: ".sec-5",
   ease: "power1.out",
   scale: 0,
@@ -150,63 +150,3 @@ tl.to(".parallax", {
     duration: 1,
   });
 
-// gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
-// gsap.to(".parallax", {
-//   yPercent: 10,
-//   xPercent: 22,
-//   scale: 1.5,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".parallax",
-//     scrub: 1,
-//     start: "top+=250px top",
-//     end: "bottom+=50px bottom",
-//     markers: true,
-//   },
-// });
-
-// const parallaxImage = document.querySelector('.parallax-image');
-
-//zoom
-// gsap.to(".box3", {
-//   scale: 7,
-//   transformOrigin: "center center",
-//   ease: "power1.inOut",
-//   immediateRender: false,
-//   scrollTrigger: {
-//     trigger: ".box2",
-//     start: "top top",
-//     end: "+=300",
-//     markers: true,
-//     scrub: 3
-//   }
-// });
-
-//zoom
-// gsap.to(".group", {
-//   scale: 2,
-//   transformOrigin: "left left",
-//   ease: "power1.inOut",
-//   scrollTrigger: {
-//     trigger: ".group",
-//     start: "top top",
-//     end: "+=300",
-//     markers: true,
-//     scrub: 0.5
-//   }
-// });
-
-// //zoom
-// gsap.to(".group", {
-//   scale: 7,
-//   transformOrigin: "center center",
-//   ease: "power1.inOut",
-//   immediateRender: false,
-//   scrollTrigger: {
-//     trigger: ".group",
-//     start: "center 50%",
-//     end: "+=300",
-//     markers: true,
-//     scrub: 0.5
-//   }
-// });

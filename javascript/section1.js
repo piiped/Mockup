@@ -20,7 +20,7 @@ tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
 
 tl.from(".bg", { y: "100%", duration: 2 }, "-=1");
 
-tl.from(".wrapper_3", { x: "100%", duration: 1 }, "-=0.5");
+tl.from(".wrapper_3", { y: "100%", duration: 1 }, "-=1");
 tl.from(".paper_1", { scale: 0, duration: 1 }, "-=1").from(
   ".fast-text",
   { y: "100%", duration: 0.5, stagger: 0.2, opacity: 0 },

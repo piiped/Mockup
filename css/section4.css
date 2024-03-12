@@ -44,6 +44,7 @@ body{
 }
 .cloud .btf{
     position: absolute;
+    width: 100%;
     margin: 30% 80%;
 }
 .btf img{
@@ -66,4 +67,12 @@ body{
     margin-top: 50%;
     z-index: 2;
     transition: ease-in-out;
+   
+}
+.cloud_cover img{
+    position: absolute;
+    margin-top: 50%;
+    z-index: 2;
+    transition: ease-in-out;
+    width: 100vw;
 }

@@ -76,7 +76,7 @@ const scrollTimeline = gsap.timeline({
     trigger: ".sec-6-title",
     scrub: 2,
     start: "top",
-    end: "center",
+    end: "center+=300",
     markers:true,
   },
 });

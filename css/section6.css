@@ -15,11 +15,88 @@ body{
     z-index: 2;
     align-items: center;
     position: relative;
+    z-index: 6;
 }
 .sec-6-title p{
     text-align: center;
     font-size: 100px;
     color: #fff;
     font-weight:900;
+    z-index: 6;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+.sec-6-group .clock-1{
+    margin-top: -79%;
+    margin-left: 25%;
+    position: absolute;
     z-index: 2;
+}
+.clock-1 img{
+    width: 350px;
+}
+
+.sec-6-group .clock-2{
+    margin-top: -87%;
+    margin-left: 32%;
+    position: absolute;
+    z-index: 2;
+}
+.clock-2 img{
+    width: 300px;
+}
+
+.sec-6-group .clock-3{
+    margin-top: -84%;
+    margin-left: 45%;
+    position: absolute;
+    z-index: 2;
+}
+.clock-3 img{
+    width: 300px;
+}
+
+.sec-6-group .clock-4{
+    margin-top: -68%;
+    margin-left: 28%;
+    position: absolute;
+    z-index: 2;
+}
+.clock-4 img{
+    width: 540px;
+}
+
+.sec-6-group .shirt-orange{
+    margin-top: -70%;
+    margin-left: 55%;
+    position: absolute;
+    z-index: 3;
+}
+
+.shirt-orange img{
+    width: 230px;
+}
+
+.sec-6-group .g04_woman{
+    margin-top: -78%;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 3;
+}
+
+.g04_woman img{
+    width: 750px;
+}
+
+.sec-6-group .g05_paper{
+    margin-top: -60%;
+    margin-left: 27%;
+    position: absolute;
+    z-index: 5;
+}
+
+.g05_paper img{
+    width: 350px;
 }

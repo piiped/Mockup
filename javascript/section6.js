@@ -67,14 +67,14 @@ gsap.set(".sec-6-title", {scale: 1, yPercent: 0, xPercent: 0 });
 
 // Omitted commented section for brevity
 
-gsap.set(".sec-6-title", { yPercent: -50, scale: 1 });
+gsap.set(".sec-6-title", { yPercent: -60, scale: 1 });
 
 // Omitted commented section for brevity
 
 const scrollTimeline = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".sec-6-title",
-    scrub: 2,
+    scrub: 3,
     start: "top",
     end: "center+=300",
     markers:true,
@@ -82,14 +82,14 @@ const scrollTimeline = gsap.timeline({
 });
 
 scrollTimeline.to(".sec-6-title", {
-  yPercent: -90,
+  yPercent: -120,
   ease: "none",
   duration: 2,
 })
 
 .to(".sec-6-title", {
   yPercent: -40,
-  scale:0.8,
+  scale:0.9,
   ease: "power4.out",
   duration: 3,
 });

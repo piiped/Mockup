@@ -29,7 +29,7 @@ body{
 
 .sec-6-group .clock-1{
     margin-top: -79%;
-    margin-left: 25%;
+    margin-left: 27%;
     position: absolute;
     z-index: 2;
 }
@@ -145,4 +145,58 @@ body{
     font-weight:900;
     z-index: 7;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.slide .banner_slide{
+    opacity: 1;
+    text-align: left;
+    border-radius: 20px;
+    background: #FFF;
+    overflow: hidden;
+    position: absolute;
+    z-index: 90;
+    flex-shrink: 0;
+    padding: 20px;
+    z-index: 7;
+}
+.banner_title{
+    color: #000;
+    font-family: Prompt;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+    z-index: 7;
+}
+.banner_describe{
+    color: #000;
+    font-family: Prompt;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    line-height: normal;
+    z-index: 7;
+}
+#sec6-1{
+    top: 40%;
+    left: 62%;
+}
+#sec6-2{
+    top: 50%;
+    left: 62%;
+}
+#sec6-3{
+    top: 60%;
+    left: 62%;
+}
+#sec6-4{
+    top: 70%;
+    left: 62%;
+}
+#sec6-5{
+    top: 80%;
+    left: 62%;
+}
+#sec6-6{
+    top: 90%;
+    left: 62%;
 }

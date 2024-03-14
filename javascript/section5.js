@@ -11,7 +11,6 @@ gsap.to(".sec-5-text", {
   },
 });
 
-//pin ให้sec5 อยู่กับหน้าจอ
 ScrollTrigger.create({
   trigger: ".parallax",
   start: "top-=50px top",
@@ -19,26 +18,15 @@ ScrollTrigger.create({
   pin: ".sec-5",
   ease: "power1.out",
   scale: 0,
-  // markers: {
-  //   startColor: "white",
-  //   endColor: "white",
-  //   fontSize: "18px",
-  //   fontWeight: "bold",
-  //   indent: 20,
-  // },
 });
 
 gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
-
-//สร้าง timeline ให้กับ parallax
 const tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".parallax",
     scrub:1,
     start: "top+=250px top",
-    // end: "bottom+=50px bottom",
     end: "bottom+=2000",
-    // markers: true,
   },
 });
 

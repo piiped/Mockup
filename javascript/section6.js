@@ -180,7 +180,7 @@ const paper = gsap.timeline({
     scrub: 2,
     start: "top",
     end: "top+=10",
-    markers:true,
+    //markers:true,
   },
 });
 paper.to(".g05_paper", {
@@ -236,13 +236,13 @@ ScrollTrigger.create({
   pin: ".sec-6",
   ease: "power1.out",
   scale: 0,
-  markers: {
-    startColor: "white",
-    endColor: "white",
-    fontSize: "18px",
-    fontWeight: "bold",
-    indent: 20,
-  },
+  // markers: {
+  //   startColor: "white",
+  //   endColor: "white",
+  //   fontSize: "18px",
+  //   fontWeight: "bold",
+  //   indent: 20,
+  // },
 });
 
 

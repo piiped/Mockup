@@ -184,3 +184,56 @@ paper.to(".g05_paper", {
   opacity:1,
 
 })
+
+gsap.set(".woman_red", { yPercent: 10});
+gsap.to(".woman_red", {
+  yPercent: -20,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".woman_red",
+    scrub: 1
+  },
+});
+gsap.set(".woman_original", { yPercent: 10});
+gsap.to(".woman_original", {
+  yPercent: -20,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".woman_original",
+    scrub: 2
+  },
+});
+gsap.set(".woman_red2", { yPercent: 10});
+gsap.to(".woman_red2", {
+  yPercent: -20,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".woman_red2",
+    scrub: 3
+  },
+});
+gsap.set(".sec-6-title2", { yPercent: 20});
+gsap.to(".sec-6-title2", {
+  yPercent: -20,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".sec-6-title2",
+    scrub: 3
+  },
+});
+
+ScrollTrigger.create({
+  trigger: ".all_woman",
+  start: "top-=300px top",
+  end: "bottom+=2000 top",
+  pin: ".sec-6",
+  ease: "power1.out",
+  scale: 0,
+  markers: {
+    startColor: "white",
+    endColor: "white",
+    fontSize: "18px",
+    fontWeight: "bold",
+    indent: 20,
+  },
+});

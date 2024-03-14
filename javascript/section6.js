@@ -33,7 +33,7 @@ sec6_title.to(".sec-6-title", {
   duration: 3,
 });
 
-gsap.set(".clock-1", { yPercent: -100, xPercent:-250});
+gsap.set(".clock-1", { yPercent: -100, xPercent:-250, opacity:0});
 const clock_1 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-1",
@@ -44,6 +44,7 @@ const clock_1 = gsap.timeline({
   },
 });
 clock_1.to(".clock-1", {
+  opacity:1,
   yPercent: -5,
   xPercent: 5,
   ease: "none",
@@ -68,7 +69,7 @@ clock_1.to(".clock-1", {
 // })
 
 
-gsap.set(".clock-2", { yPercent: -150, xPercent:-360, });
+gsap.set(".clock-2", { yPercent: -150, xPercent:-360,opacity:0 });
 const clock_2 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-2",
@@ -79,6 +80,7 @@ const clock_2 = gsap.timeline({
   },
 });
 clock_2.to(".clock-2", {
+  opacity:1,
   yPercent: 0,
   xPercent: 2,
   ease: "none",
@@ -97,7 +99,7 @@ clock_2.to(".clock-2", {
 //   }, 
 // })
 
-gsap.set(".clock-3", { yPercent: -150, xPercent:500, });
+gsap.set(".clock-3", { yPercent: -150, xPercent:500,opacity:0 });
 const clock_3 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-3",
@@ -108,6 +110,7 @@ const clock_3 = gsap.timeline({
   },
 });
 clock_3.to(".clock-3", {
+  opacity:1,
   yPercent: 0,
   xPercent: 2,
   ease: "none",
@@ -115,7 +118,7 @@ clock_3.to(".clock-3", {
 
 })
 
-gsap.set(".clock-4", { yPercent: -150, xPercent:270, });
+gsap.set(".clock-4", { yPercent: -150, xPercent:270,opacity:0 });
 const clock_4 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-4",
@@ -126,6 +129,7 @@ const clock_4 = gsap.timeline({
   },
 });
 clock_4.to(".clock-4", {
+  opacity:1,
   yPercent: 0,
   xPercent: 2,
   ease: "none",
@@ -133,7 +137,7 @@ clock_4.to(".clock-4", {
 
 })
 
-gsap.set(".shirt-orange", { yPercent: -150, xPercent:300, });
+gsap.set(".shirt-orange", { yPercent: -150, xPercent:550, opacity:0});
 const shirt_orange = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".shirt-orange",
@@ -144,6 +148,7 @@ const shirt_orange = gsap.timeline({
   },
 });
 shirt_orange.to(".shirt-orange", {
+  opacity:1,
   yPercent: 0,
   xPercent: 2,
   ease: "none",
@@ -151,7 +156,7 @@ shirt_orange.to(".shirt-orange", {
 
 })
 
-gsap.set(".g04_woman", { yPercent: -50, xPercent:-350});
+gsap.set(".g04_woman", { yPercent: -50, xPercent:-350, opacity:0});
 const women = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".g04_woman",
@@ -162,12 +167,13 @@ const women = gsap.timeline({
   },
 });
 women.to(".g04_woman", {
+  opacity:1,
   yPercent: -5,
   xPercent: 5,
   ease: "none",
 })
 
-gsap.set(".g05_paper", {  yPercent: -190, xPercent:-300});
+gsap.set(".g05_paper", {  yPercent: -190, xPercent:-300, opacity:0});
 const paper = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".g05_paper",
@@ -178,6 +184,7 @@ const paper = gsap.timeline({
   },
 });
 paper.to(".g05_paper", {
+  opacity:1,
   yPercent: 0,
   xPercent: 1,
   ease: "none",
@@ -185,47 +192,47 @@ paper.to(".g05_paper", {
 
 })
 
-gsap.set(".woman_red", { yPercent: 10});
+gsap.set(".woman_red", { yPercent: 20});
 gsap.to(".woman_red", {
-  yPercent: -20,
+  yPercent: -10,
   ease: "none",
   scrollTrigger: {
     trigger: ".woman_red",
     scrub: 1
   },
 });
-gsap.set(".woman_original", { yPercent: 10});
+gsap.set(".woman_original", { yPercent: 20});
 gsap.to(".woman_original", {
-  yPercent: -20,
+  yPercent: -10,
   ease: "none",
   scrollTrigger: {
     trigger: ".woman_original",
     scrub: 2
   },
 });
-gsap.set(".woman_red2", { yPercent: 10});
+gsap.set(".woman_red2", { yPercent: 20});
 gsap.to(".woman_red2", {
-  yPercent: -20,
+  yPercent: -10,
   ease: "none",
   scrollTrigger: {
     trigger: ".woman_red2",
     scrub: 3
   },
 });
-gsap.set(".sec-6-title2", { yPercent: 20});
-gsap.to(".sec-6-title2", {
-  yPercent: -20,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".sec-6-title2",
-    scrub: 3
-  },
-});
+// gsap.set(".sec-6-title2", { yPercent: 20});
+// gsap.to(".sec-6-title2", {
+//   yPercent: -20,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".sec-6-title2",
+//     scrub: 3
+//   },
+// });
 
 ScrollTrigger.create({
   trigger: ".all_woman",
-  start: "top-=300px top",
-  end: "bottom+=2000 top",
+  start: "top-=330px top",
+  end: "bottom+=700 top",
   pin: ".sec-6",
   ease: "power1.out",
   scale: 0,
@@ -235,5 +242,17 @@ ScrollTrigger.create({
     fontSize: "18px",
     fontWeight: "bold",
     indent: 20,
+  },
+});
+
+
+gsap.set(".banner_slide", { yPercent: 300});
+gsap.to(".banner_slide", {
+  yPercent: -400,
+  ease: "power4.out",
+  duration: 2,
+  scrollTrigger: {
+    trigger: ".banner_slide",
+    scrub: 3
   },
 });

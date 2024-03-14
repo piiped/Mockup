@@ -11,7 +11,6 @@ gsap.to(".sec-5-text", {
   },
 });
 
-
 //pin ให้sec5 อยู่กับหน้าจอ
 ScrollTrigger.create({
   trigger: ".parallax",
@@ -35,7 +34,7 @@ gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
 const tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".parallax",
-    scrub:3,
+    scrub: 3,
     start: "top+=250px top",
     // end: "bottom+=50px bottom",
     end: "bottom+=2000",
@@ -51,7 +50,8 @@ tl5
     ease: "power1.out",
     duration: 2,
   })
-
+  .to(".sec-5-text", { opacity: 1 })
+  .to(".sec-5-text", { opacity: 0 })
   .to("#sec5-1", {
     opacity: 1,
     duration: 1,
@@ -150,4 +150,3 @@ tl5
   .to(".parallax", {
     duration: 1,
   });
-

@@ -18,14 +18,14 @@
  html {
      scroll-behavior: smooth;
 }
- .wrapweb {
+ /* .wrapweb {
      overflow-x: hidden;
      overflow-y: hidden;
      position: relative;
      margin-top: -6.735vw;
      padding-top: 5.564vw;
      scroll-behavior: smooth;
-}
+} */
  .navbar {
      margin: 5px;
      position: -webkit-sticky;

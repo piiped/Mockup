@@ -1,94 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
- * {
-     font-family: 'Prompt', sans-serif;
+
+* {
+    font-family: 'Prompt', sans-serif;
 }
- body{
-     margin: auto;
+body{
+    margin: auto;
 }
- .sec-2 {
-     color: aliceblue;
-     padding-top: 10%;
-     position: relative;
-     padding-bottom: 30%;
-     overflow: hidden;
-     background-color: #1E1E1E;
+.sec-2 {
+    color: aliceblue;
+    padding-top: 10%;
+    position: relative;
+    padding-bottom: 30%;
+    overflow: hidden;
+    background-color: #1E1E1E;
+    
 }
- .sec-2 .titleBurrowing {
-     overflow: hidden;
-     text-align: center;
+
+.sec-2 .titleBurrowing {
+    overflow: hidden;
+    text-align: center;
 }
-/* --------PC-------- */
- @media only screen and (min-width:1366px){
-     .sec-2 h3 {
-         font-size: 2.928vw;
-         margin-bottom: 24px;
-         padding: 0;
-         font-weight: 400;
-         background-color: transparent;
-    }
-     .sec-2 p {
-         width: 62.225vw;
-         margin: auto;
-         font-size: 1.903vw;
-         font-style: normal;
-         font-weight: 400;
-         line-height: 2.709vw;
-         background-color: transparent;
-    }
+
+.sec-2 h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    padding: 0;
+    background-color: transparent;
 }
- .sec-2 img {
-     margin: 0;
-     margin-bottom: 5.857vw;
-     background-color: transparent;
-     width: 64.422vw;
+
+.sec-2 img {
+    margin: 0;
+    margin-bottom: 24px;
+    background-color: transparent;
+    width: 880px;
 }
- .bag{
-     position: absolute;
-     right: -8%;
-     top: 10%;
+
+.sec-2 p {
+    width: 860px;
+    margin: auto;
+    font-size: 20px;
+    background-color: transparent;
 }
- .bag img{
-     width: 250px;
+.bag{
+    position: absolute;
+    right: -8%;
+    top: 10%;
 }
- .hanger{
-     position: absolute;
-     left: -8%;
-     top: 30%;
+.bag img{
+    width: 250px;
 }
- .hanger img{
-     width: 450px;
+.hanger{
+    position: absolute;
+    left: -8%;
+    top: 30%;
 }
- .search {
-     position: absolute;
-     right: 15%;
-     z-index: 1;
+.hanger img{
+    width: 450px;
 }
- .search img {
-     width: 300px;
+.search {
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+
 }
-/* --------TABLET-------- */
- @media only screen and (min-width:390px) and (max-width:1365px){
-     .sec-2 h3 {
-         font-size: 3vw;
-         margin-bottom: 6px;
-    }
-     .sec-2 p {
-         font-size: 3.385vw;
-         line-height: 4.818vw;
-         width: 71.615vw;
-         margin: auto;
-    }
+.search img {
+    width: 300px;
 }
-/* --------MOBILE-------- */
-/* @media only screen and (min-width:390px){
-     .sec-2 h3 {
-         font-size: 2.928vw;
-         margin-bottom: 24px;
-    }
-     .sec-2 p {
-         font-size: 26px;
-         line-height: 37px;
-         width: 860px;
-    }
-}
- */
+

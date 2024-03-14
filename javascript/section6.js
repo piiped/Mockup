@@ -11,85 +11,124 @@ gsap.to(".sec-5-bg", {
   },
 });
 
-// gsap.set(".sec-5-title", { yPercent: 0 });
-// gsap.to(".sec-5-title", {
-//   yPercent: -100,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".sec-5-title",
-//     start: "center",
-//     end: "bottom",
-//     scrub: 3,
-//     duration: 3,
-//     markers:true,
-//   },
-// });
-
-
-
-gsap.set(".sec-6-title", {scale: 1, yPercent: 0, xPercent: 0 });
-// gsap.to(".sec-6-title", {
-//   yPercent: -100,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".sec-6-title",
-//     start: "top",
-//     end: "top 50%",
-//     scrub: 3,
-//     duration: 3,
-//     markers:true,
-//   },
-// });
-
-// const tl = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".sec-6-title",
-//     scrub:3,
-//     start: "top+=250px top",
-//     // end: "bottom+=50px bottom",
-//     end: "bottom+=2000",
-//     // markers: true,
-//   },
-// });
-
-// tl.to(".sec-6-title", {
-//   yPercent: 5,
-//   ease: "sec-6-title",
-//   duration: 2,
-// })
-
-// .to(".parallax", {
-//   yPercent: 22,
-//   ease: "power4.out",
-//   duration: 2,
-// })
-
-
-// Omitted commented section for brevity
 
 gsap.set(".sec-6-title", { yPercent: -60, scale: 1 });
-
-// Omitted commented section for brevity
-
-const scrollTimeline = gsap.timeline({ 
+const sec6_title = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".sec-6-title",
     scrub: 3,
     start: "top",
     end: "center+=300",
-    markers:true,
   },
 });
-
-scrollTimeline.to(".sec-6-title", {
+sec6_title.to(".sec-6-title", {
   yPercent: -120,
   ease: "none",
   duration: 2,
 })
-
 .to(".sec-6-title", {
   yPercent: -40,
   scale:0.9,
   ease: "power4.out",
   duration: 3,
 });
+
+gsap.set(".clock-1", { yPercent: -100, xPercent:-250});
+const clock_1 = gsap.timeline({ 
+  scrollTrigger: {
+    trigger: ".clock-1",
+    scrub: 3,
+    start: "top",
+    end: "top+=100",
+    // markers:true,
+  },
+});
+clock_1.to(".clock-1", {
+  yPercent: -5,
+  xPercent: 5,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".clock-1",
+    start: "center 20%",
+    end: "top+=10",
+    scrub: 3,
+    // markers:true,
+  }, 
+})
+// .to(".clock-1", {
+//   xPercent: -200,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".clock-1",
+//     start: "center 75%",
+//     end: "center+=100",
+//     scrub: 3,
+//     markers:true,
+//   }, 
+// })
+
+
+gsap.set(".clock-2", { yPercent: -150, xPercent:-360, });
+const clock_2 = gsap.timeline({ 
+  scrollTrigger: {
+    trigger: ".clock-2",
+    scrub: 3,
+    start: "top",
+    end: "top+=100",
+    markers:true,
+  },
+});
+clock_2.to(".clock-2", {
+  yPercent: 0,
+  xPercent: 2,
+  ease: "none",
+  opacity:1,
+
+})
+// to(".clock-2", {
+//   yPercent: 0,
+//   xPercent: -30,
+//   ease: "none",
+//   opacity:1,
+//   scrollTrigger: {
+//     trigger: ".clock-2",
+//     scrub: 3,
+//     markers:true,
+//   }, 
+// })
+
+gsap.set(".clock-3", { yPercent: -150, xPercent:500, });
+const clock_3 = gsap.timeline({ 
+  scrollTrigger: {
+    trigger: ".clock-3",
+    scrub: 2,
+    start: "top",
+    end: "top+=50",
+    // markers:true,
+  },
+});
+clock_3.to(".clock-3", {
+  yPercent: 0,
+  xPercent: 2,
+  ease: "none",
+  opacity:1,
+
+})
+
+gsap.set(".clock-4", { yPercent: -150, xPercent:270, });
+const clock_4 = gsap.timeline({ 
+  scrollTrigger: {
+    trigger: ".clock-4",
+    scrub: 2,
+    start: "top",
+    end: "top+=50",
+    // markers:true,
+  },
+});
+clock_4.to(".clock-4", {
+  yPercent: 0,
+  xPercent: 2,
+  ease: "none",
+  opacity:1,
+
+})

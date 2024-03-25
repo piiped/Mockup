@@ -26,7 +26,7 @@ const tl5 = gsap.timeline({
     trigger: ".parallax",
     scrub:1,
     start: "top+=250px top",
-    end: "bottom+=2000",
+    end: "bottom+=1500",
   },
 });
 

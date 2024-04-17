@@ -1,420 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/css.css" />
-    <link rel="stylesheet" href="/css/section2.css" />
-    <link rel="stylesheet" href="/css/section3.css" />
-    <link rel="stylesheet" href="/css/section4.css" />
-    <link rel="stylesheet" href="/css/section5.css" />
-    <link rel="stylesheet" href="/css/section6.css" />
-    <title>Fast Fashion</title>
-  </head>
-  <body>
-    <div class="blockmb">
-      <div class="phone"></div>
-      <div class="message">โปรดหมุนอุปกรณ์ของคุณ</div>
-    </div>
-    <div class="intro">
-      <div class="intro-text">
-        <div class="loader"></div>
-      </div>
-    </div>
-    <div class="slider"></div>
 
-    <progress max="100" value="0"></progress>
-    <div class="navbar">
-      <div class="nav" id="nav">
-        <a href="#section1">
-          <img src="/img/assets/logo.png" />
-        </a>
-        <a href="#myLinks" class="icon" onclick="openNav()">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/css.css" />
+  <link rel="stylesheet" href="/css/section2.css" />
+  <link rel="stylesheet" href="/css/section3.css" />
+  <link rel="stylesheet" href="/css/section4.css" />
+  <link rel="stylesheet" href="/css/section5.css" />
+  <link rel="stylesheet" href="/css/section6.css" />
+  <link rel="stylesheet" href="/css/section7.css" />
+  <link rel="stylesheet" href="/css/section8.css" />
+  <title>Fast Fashion</title>
+</head>
+
+<body>
+  <div class="blockmb">
+    <div class="phone"></div>
+    <div class="message">โปรดหมุนอุปกรณ์ของคุณ</div>
+  </div>
+  <div class="intro">
+    <div class="intro-text">
+      <div class="loader"></div>
+    </div>
+  </div>
+  <div class="slider"></div>
+
+  <progress max="100" value="0"></progress>
+  <div class="navbar">
+    <div class="nav" id="nav">
+      <a href="#section1">
+        <img src="/img/assets/logo.png" />
+      </a>
+      <a href="#myLinks" class="icon" onclick="openNav()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </svg>
+      </a>
+      <div class="slide_nav" id="slide_nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <path
-              fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-            />
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
           </svg>
         </a>
-        <div class="slide_nav" id="slide_nav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path
-                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
-              />
-            </svg>
-          </a>
-          <a href="#section1" class="list">หน้าหลัก</a>
-          <a href="#section2" class="list">ความหมาย</a>
-          <a href="#section5" class="list">ผลกระทบ</a>
-          <a href="#" class="list">แนวทางการแก้ปัญหา</a>
-          <a href="#" class="list">ผู้จัดทำ</a>
-        </div>
+        <a href="#section1" class="list">หน้าหลัก</a>
+        <a href="#section2" class="list">ความหมาย</a>
+        <a href="#section5" class="list">ผลกระทบ</a>
+        <a href="#section6" class="list">แนวทางการแก้ปัญหา</a>
+        <a href="#" class="list">ผู้จัดทำ</a>
       </div>
     </div>
-    <div class="wrapweb">
-      <section class="sec-1" id="section1">
-        <div class="cover">
-          <div class="wrapper_1">
-            <img src="/img/assets/a/a04_box.png" />
-          </div>
-          <div class="wrapper_2" id="wrapper_2">
-            <img src="/img/assets/a/a03_shirt.png" />
-          </div>
-          <div class="wrapper_3">
-            <img src="/img/assets/a/a02_bowl.png" />
-          </div>
+  </div>
+  <div class="wrapweb">
+    <section class="sec-1" id="section1">
+      <div class="cover">
+        <div class="wrapper_1">
+          <img src="/img/assets/a/a04_box.png" />
         </div>
-        <div class="title">
-          <div class="paper_1" id="paper">
-            <div class="braek">
-              <img src="/img/assets/a/a05_braek.png" />
-            </div>
-            <div class="fast_1 fast-text">
-              <img src="/img/assets/a/a05_fast1.png" />
-            </div>
-            <div class="fast_2 fast-text">
-              <img src="/img/assets/a/a05_fast2.png" />
-            </div>
-            <div class="fast_3 fast-text">
-              <img src="/img/assets/a/a05_fast3.png" />
-            </div>
-            <div class="fast_4 fast-text">
-              <img src="/img/assets/a/a05_fast4.png" />
-            </div>
-            <img src="/img/assets/a/a04.5_paper1.png" />
-          </div>
-
-          <div class="paper_2">
-            <div class="fashion_1 fash-text">
-              <img src="/img/assets/a/a05_fashion1.png" />
-            </div>
-            <div class="fashion_2 fash-text">
-              <img src="/img/assets/a/a05_fashion2.png" />
-            </div>
-            <div class="fashion_3 fash-text">
-              <img src="/img/assets/a/a05_fashion3.png" />
-            </div>
-            <div class="fashion_4 fash-text">
-              <img src="/img/assets/a/a05_fashion4.png" />
-            </div>
-            <div class="fashion_5 fash-text">
-              <img src="/img/assets/a/a05_fashion5.png" />
-            </div>
-            <div class="fashion_6 fash-text">
-              <img src="/img/assets/a/a05_fashion6.png" />
-            </div>
-            <div class="fashion_7 fash-text">
-              <img src="/img/assets/a/a05_fashion7.png" />
-            </div>
-            <div class="caption">
-              <img src="/img/assets/a/a05_caption.png" />
-            </div>
-            <img src="/img/assets/a/a04.5_paper2.png" />
-          </div>
-
-          <div class="bg">
-            <img src="/img/assets/a/a01_tablecloth.png" />
-          </div>
+        <div class="wrapper_2" id="wrapper_2">
+          <img src="/img/assets/a/a03_shirt.png" />
         </div>
-      </section>
-
-      <section class="sec-2" id="section2">
-        <h3 class="titleBurrowing">What is</h3>
-        <div class="titleBurrowing">
-          <img src="/img/assets/b/b03_fastfashion.png" />
+        <div class="wrapper_3">
+          <img src="/img/assets/a/a02_bowl.png" />
+        </div>
+      </div>
+      <div class="title">
+        <div class="paper_1" id="paper">
+          <div class="braek">
+            <img src="/img/assets/a/a05_braek.png" />
+          </div>
+          <div class="fast_1 fast-text">
+            <img src="/img/assets/a/a05_fast1.png" />
+          </div>
+          <div class="fast_2 fast-text">
+            <img src="/img/assets/a/a05_fast2.png" />
+          </div>
+          <div class="fast_3 fast-text">
+            <img src="/img/assets/a/a05_fast3.png" />
+          </div>
+          <div class="fast_4 fast-text">
+            <img src="/img/assets/a/a05_fast4.png" />
+          </div>
+          <img src="/img/assets/a/a04.5_paper1.png" />
         </div>
 
-        <p class="titleBurrowing">
-          กระบวนการผลิตเสื้อผ้าที่เน้นความรวดเร็วฉับไว เป็นแฟชั่นวงจรสั้นๆ
-          เปลี่ยนรูปแบบไปเรื่อย ๆ เน้นการขายปริมาณมากในเวลาอันรวดเร็ว
-          โดยใช้ต้นทุนต่ำทั้งในส่วนของวัตถุดิบที่ใช้ในการผลิตและแรงงาน
-          เพื่อที่ให้เสื้อผ้านั้นมีราคาถูก เข้าถึงง่าย และสวมใส่ได้ในทุกโอกาส
-          แต่กระนั้นเอง ตลอดทุกขั้นตอนการผลิตได้ส่งผลต่อสิ่งแวดล้อมเป็นวงกว้าง
-        </p>
-        <div class="bag">
-          <img src="/img/assets/b/b02_bag.png" />
-        </div>
-        <div class="hanger">
-          <img src="/img/assets/b/b02_hanger.png" />
-        </div>
-        <div class="search">
-          <img class="search_icon" src="/img/assets/b/b04_magnifying.png" />
-        </div>
-      </section>
-
-      <section class="sec-3">
-        <div class="text-box">
-          <div class="text-1">
-            <div class="box-1">
-              <p>หลากหลายสไตล์</p>
-            </div>
+        <div class="paper_2">
+          <div class="fashion_1 fash-text">
+            <img src="/img/assets/a/a05_fashion1.png" />
           </div>
-          <div class="text-2">
-            <div class="box-2">
-              <p>ราคาถูก</p>
-            </div>
+          <div class="fashion_2 fash-text">
+            <img src="/img/assets/a/a05_fashion2.png" />
           </div>
-          <div class="text-3">
-            <div class="box-3">
-              <p>คุณภาพวัสดุต่ำ</p>
-            </div>
+          <div class="fashion_3 fash-text">
+            <img src="/img/assets/a/a05_fashion3.png" />
           </div>
-          <div class="text-4">
-            <div class="box-4">
-              <p>ผลิตอย่างรวดเร็ว</p>
-            </div>
+          <div class="fashion_4 fash-text">
+            <img src="/img/assets/a/a05_fashion4.png" />
           </div>
-          <div class="text-5">
-            <div class="box-5">
-              <p>ผลิตนอกประเทศ</p>
-            </div>
+          <div class="fashion_5 fash-text">
+            <img src="/img/assets/a/a05_fashion5.png" />
           </div>
-        </div>
-        <div class="line">
-          <div class="line-1">
-            <img src="/img/assets/c/c05_dot1.png" />
+          <div class="fashion_6 fash-text">
+            <img src="/img/assets/a/a05_fashion6.png" />
           </div>
-          <div class="line-2">
-            <img src="/img/assets/c/c05_dot2.png" />
+          <div class="fashion_7 fash-text">
+            <img src="/img/assets/a/a05_fashion7.png" />
           </div>
-          <div class="line-3">
-            <img src="/img/assets/c/c05_dot3.png" />
+          <div class="caption">
+            <img src="/img/assets/a/a05_caption.png" />
           </div>
-          <div class="line-4">
-            <img src="/img/assets/c/c05_dot4.png" />
-          </div>
-          <div class="line-5">
-            <img src="/img/assets/c/c05_dot5.png" />
-          </div>
-        </div>
-        <div class="shirt">
-          <div class="shirt-img-1">
-            <img class="shirt-1" src="/img/assets/c/c02_jacket.png" />
-          </div>
-          <div class="shirt-img-2">
-            <img class="shirt-2" src="/img/assets/c/c02_sweater.png" />
-          </div>
-          <div class="shirt-img-3">
-            <img class="shirt-3" src="/img/assets/c/c02_coat.png" />
-          </div>
-          <div class="shirt-img-4">
-            <img class="shirt-4" src="/img/assets/c/c02_mickey.png" />
-          </div>
-          <div class="shirt-img-5">
-            <img class="shirt-5" src="/img/assets/c/c02_dress.png" />
-          </div>
-          <div class="shirt-img-6">
-            <img class="shirt-6" src="/img/assets/c/c03_shirt.png" />
-          </div>
-          <div class="shirt-img-7">
-            <img class="shirt-7" src="/img/assets/c/c04_hood.png" />
-          </div>
-          <div class="shirt-img-8">
-            <img class="shirt-8" src="/img/assets/c/c02_cheap.png" />
-          </div>
-          <div class="shirt-img-9">
-            <img class="shirt-9" src="/img/assets/c/c04_box.png" />
-          </div>
-          <div class="shirt-img-10">
-            <img class="shirt-10" src="/img/assets/c/c02_label.png" />
-          </div>
-        </div>
-      </section>
-
-      <section class="sec-4">
-        <div class="cloud">
-          <div class="c_1">
-            <img class="c-img-1" src="/img/assets/d/d01_cloud.png" />
-          </div>
-          <div class="c_2">
-            <img src="/img/assets/d/d02_cloud.png" />
-          </div>
-          <div class="c_3">
-            <img src="/img/assets/d/d03_cloud.png" />
-          </div>
-          <div class="c_4">
-            <img src="/img/assets/d/d04_cloud.png" />
-          </div>
-          <div class="btf">
-            <img src="/img/assets/d/d05_butterfly.png" />
-          </div>
-        </div>
-        <div class="sec4_text">
-          <p>แล้ว Fast Fashion<br />สร้างผลกระทบอะไรบ้างนะ</p>
-        </div>
-        <div class="cloud_cover">
-          <img src="/img/assets/e/e01_cloud.png" />
-        </div>
-      </section>
-      <section class="sec-5">
-        <div class="sec-5-text">
-          <div class="sec-5-text1">
-            <p id="section5">ผลกระทบ</p>
-          </div>
-          <div class="sec-5-text2">
-            <p>ด้านสิ่งแวดล้อม</p>
-          </div>
-        </div>
-        <div class="group">
-          <div class="parallax">
-            <div class="banner" id="sec5-1">
-              <p class="banner-head">ใช้ทรัพยากรน้ำเป็นจำนวนมาก</p>
-              <p class="banner-text">
-                มีการใช้น้ำในกระบวนการผลิตอย่างการปลูกฝ้ายและทำ<br />
-                ความสะอาดเสื้อผ้า โดยต้องใช้น้ำประมาณ 3,000 ลิตร <br />
-                ต่อเสื้อผ้า 1 ตัว
-              </p>
-            </div>
-            <div class="banner" id="sec5-2">
-              <p class="banner-head">ความเสื่อมโทรมของที่ดิน</p>
-              <p class="banner-text">
-                การฝังกลบดินเพื่อกำจัดขยะเสื้อผ้าที่ไม่สามารถ<br />ย่อยสลายได้
-                ทำให้ทิ้งสารตกค้างจำนวนมากไว้ในดิน
-              </p>
-            </div>
-            <div class="banner" id="sec5-3">
-              <p class="banner-head">การปล่อยก๊าซเรือนกระจก</p>
-              <p class="banner-text">
-                การผลิตและการขนส่งเสื้อผ้ามีส่วนใน การปล่อยคาร์บอน<br />
-                10% ทั่วโลก อย่างโพลีเอสเตอร์ที่ปล่อยก๊าซเรือนกระจก<br />
-                3.3 พันล้านตันต่อปี หรือ 8%
-              </p>
-            </div>
-            <div class="banner" id="sec5-4">
-              <p class="banner-head">มลพิษทางน้ำ</p>
-              <p class="banner-text">
-                มีการใช้สารเคมีเพื่อย้อมสีเสื้อผ้าเกิดน้ำเสีย คิดเป็น 20%<br />
-                ของโลก และสร้างมลพิษในมหาสมุทรมาอย่างต่อเนื่อง
-              </p>
-            </div>
-            <div class="banner" id="sec5-5">
-              <p class="banner-head">อันตรายต่อสัตว์</p>
-              <p class="banner-text">
-                จากมลพิษทางน้ำและไมโครไฟเบอร์ที่ไม่สามารถย่อยสลาย<br />ในน้ำได้
-                ส่งผลกระทบต่อห่วงโซ่อาหารของสัตว์ทะเล
-              </p>
-            </div>
-            <img class="parallax-image" src="/img/assets/f/f00_all.png" />
-          </div>
+          <img src="/img/assets/a/a04.5_paper2.png" />
         </div>
 
-        <div class="sec-5-div">
-          <img class="sec-5-bg" src="/img/assets/g/bg.png" />
+        <div class="bg">
+          <img src="/img/assets/a/a01_tablecloth.png" />
         </div>
-        <!-- <div class="sec-5-title">
+      </div>
+    </section>
+
+    <section class="sec-2" id="section2">
+      <h3 class="titleBurrowing">What is</h3>
+      <div class="titleBurrowing">
+        <img src="/img/assets/b/b03_fastfashion.png" />
+      </div>
+
+      <p class="titleBurrowing">
+        กระบวนการผลิตเสื้อผ้าที่เน้นความรวดเร็วฉับไว เป็นแฟชั่นวงจรสั้นๆ
+        เปลี่ยนรูปแบบไปเรื่อย ๆ เน้นการขายปริมาณมากในเวลาอันรวดเร็ว
+        โดยใช้ต้นทุนต่ำทั้งในส่วนของวัตถุดิบที่ใช้ในการผลิตและแรงงาน
+        เพื่อที่ให้เสื้อผ้านั้นมีราคาถูก เข้าถึงง่าย และสวมใส่ได้ในทุกโอกาส
+        แต่กระนั้นเอง ตลอดทุกขั้นตอนการผลิตได้ส่งผลต่อสิ่งแวดล้อมเป็นวงกว้าง
+      </p>
+      <div class="bag">
+        <img src="/img/assets/b/b02_bag.png" />
+      </div>
+      <div class="hanger">
+        <img src="/img/assets/b/b02_hanger.png" />
+      </div>
+      <div class="search">
+        <img class="search_icon" src="/img/assets/b/b04_magnifying.png" />
+      </div>
+    </section>
+
+    <section class="sec-3">
+      <div class="text-box">
+        <div class="text-1">
+          <div class="box-1">
+            <p>หลากหลายสไตล์</p>
+          </div>
+        </div>
+        <div class="text-2">
+          <div class="box-2">
+            <p>ราคาถูก</p>
+          </div>
+        </div>
+        <div class="text-3">
+          <div class="box-3">
+            <p>คุณภาพวัสดุต่ำ</p>
+          </div>
+        </div>
+        <div class="text-4">
+          <div class="box-4">
+            <p>ผลิตอย่างรวดเร็ว</p>
+          </div>
+        </div>
+        <div class="text-5">
+          <div class="box-5">
+            <p>ผลิตนอกประเทศ</p>
+          </div>
+        </div>
+      </div>
+      <div class="line">
+        <div class="line-1">
+          <img src="/img/assets/c/c05_dot1.png" />
+        </div>
+        <div class="line-2">
+          <img src="/img/assets/c/c05_dot2.png" />
+        </div>
+        <div class="line-3">
+          <img src="/img/assets/c/c05_dot3.png" />
+        </div>
+        <div class="line-4">
+          <img src="/img/assets/c/c05_dot4.png" />
+        </div>
+        <div class="line-5">
+          <img src="/img/assets/c/c05_dot5.png" />
+        </div>
+      </div>
+      <div class="shirt">
+        <div class="shirt-img-1">
+          <img class="shirt-1" src="/img/assets/c/c02_jacket.png" />
+        </div>
+        <div class="shirt-img-2">
+          <img class="shirt-2" src="/img/assets/c/c02_sweater.png" />
+        </div>
+        <div class="shirt-img-3">
+          <img class="shirt-3" src="/img/assets/c/c02_coat.png" />
+        </div>
+        <div class="shirt-img-4">
+          <img class="shirt-4" src="/img/assets/c/c02_mickey.png" />
+        </div>
+        <div class="shirt-img-5">
+          <img class="shirt-5" src="/img/assets/c/c02_dress.png" />
+        </div>
+        <div class="shirt-img-6">
+          <img class="shirt-6" src="/img/assets/c/c03_shirt.png" />
+        </div>
+        <div class="shirt-img-7">
+          <img class="shirt-7" src="/img/assets/c/c04_hood.png" />
+        </div>
+        <div class="shirt-img-8">
+          <img class="shirt-8" src="/img/assets/c/c02_cheap.png" />
+        </div>
+        <div class="shirt-img-9">
+          <img class="shirt-9" src="/img/assets/c/c04_box.png" />
+        </div>
+        <div class="shirt-img-10">
+          <img class="shirt-10" src="/img/assets/c/c02_label.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-4">
+      <div class="cloud">
+        <div class="c_1">
+          <img class="c-img-1" src="/img/assets/d/d01_cloud.png" />
+        </div>
+        <div class="c_2">
+          <img src="/img/assets/d/d02_cloud.png" />
+        </div>
+        <div class="c_3">
+          <img src="/img/assets/d/d03_cloud.png" />
+        </div>
+        <div class="c_4">
+          <img src="/img/assets/d/d04_cloud.png" />
+        </div>
+        <div class="btf">
+          <img src="/img/assets/d/d05_butterfly.png" />
+        </div>
+      </div>
+      <div class="sec4_text">
+        <p>แล้ว Fast Fashion<br />สร้างผลกระทบอะไรบ้างนะ</p>
+      </div>
+      <div class="cloud_cover">
+        <img src="/img/assets/e/e01_cloud.png" />
+      </div>
+    </section>
+    <section class="sec-5">
+      <div class="sec-5-text">
+        <div class="sec-5-text1">
+          <p id="section5">ผลกระทบ</p>
+        </div>
+        <div class="sec-5-text2">
+          <p>ด้านสิ่งแวดล้อม</p>
+        </div>
+      </div>
+      <div class="group">
+        <div class="parallax">
+          <div class="banner" id="sec5-1">
+            <p class="banner-head">ใช้ทรัพยากรน้ำเป็นจำนวนมาก</p>
+            <p class="banner-text">
+              มีการใช้น้ำในกระบวนการผลิตอย่างการปลูกฝ้ายและทำ<br />
+              ความสะอาดเสื้อผ้า โดยต้องใช้น้ำประมาณ 3,000 ลิตร <br />
+              ต่อเสื้อผ้า 1 ตัว
+            </p>
+          </div>
+          <div class="banner" id="sec5-2">
+            <p class="banner-head">ความเสื่อมโทรมของที่ดิน</p>
+            <p class="banner-text">
+              การฝังกลบดินเพื่อกำจัดขยะเสื้อผ้าที่ไม่สามารถ<br />ย่อยสลายได้
+              ทำให้ทิ้งสารตกค้างจำนวนมากไว้ในดิน
+            </p>
+          </div>
+          <div class="banner" id="sec5-3">
+            <p class="banner-head">การปล่อยก๊าซเรือนกระจก</p>
+            <p class="banner-text">
+              การผลิตและการขนส่งเสื้อผ้ามีส่วนใน การปล่อยคาร์บอน<br />
+              10% ทั่วโลก อย่างโพลีเอสเตอร์ที่ปล่อยก๊าซเรือนกระจก<br />
+              3.3 พันล้านตันต่อปี หรือ 8%
+            </p>
+          </div>
+          <div class="banner" id="sec5-4">
+            <p class="banner-head">มลพิษทางน้ำ</p>
+            <p class="banner-text">
+              มีการใช้สารเคมีเพื่อย้อมสีเสื้อผ้าเกิดน้ำเสีย คิดเป็น 20%<br />
+              ของโลก และสร้างมลพิษในมหาสมุทรมาอย่างต่อเนื่อง
+            </p>
+          </div>
+          <div class="banner" id="sec5-5">
+            <p class="banner-head">อันตรายต่อสัตว์</p>
+            <p class="banner-text">
+              จากมลพิษทางน้ำและไมโครไฟเบอร์ที่ไม่สามารถย่อยสลาย<br />ในน้ำได้
+              ส่งผลกระทบต่อห่วงโซ่อาหารของสัตว์ทะเล
+            </p>
+          </div>
+          <img class="parallax-image" src="/img/assets/f/f00_all.png" />
+        </div>
+      </div>
+
+      <div class="sec-5-div">
+        <img class="sec-5-bg" src="/img/assets/g/bg.png" />
+      </div>
+    </section>
+
+    <section class="sec-6" id="section6">
+      <div class="sec-6-title">
         <p>ปัญหาสิทธิมนุษยชน</p>
-      </div> -->
-      </section>
+      </div>
+      <div class="sec-6-group">
+        <div class="clock-1">
+          <img src="/img/assets/g/g02_clock1.png" />
+        </div>
+        <div class="clock-2">
+          <img src="/img/assets/g/g02_clock2.png" />
+        </div>
+        <div class="clock-3">
+          <img src="/img/assets/g/g02_clock3.png" />
+        </div>
+        <div class="clock-4">
+          <img src="/img/assets/g/g02_clock4.png" />
+        </div>
+        <div class="shirt-orange">
+          <img src="/img/assets/g/g03_shirt.png" />
+        </div>
+        <div class="g04_woman">
+          <img src="/img/assets/g/g04_woman.png" />
+        </div>
+        <div class="g05_paper">
+          <img src="/img/assets/g/g05_paper.png" />
+        </div>
+      </div>
+      <div class="all_woman">
+        <div class="woman_red">
+          <img src="/img/assets/g/g06_red.png" />
+        </div>
+        <div class="woman_original">
+          <img src="/img/assets/g/g04_woman.png" />
+        </div>
+        <div class="woman_red2">
+          <img src="/img/assets/g/g06_red.png" />
+        </div>
+        <div class="sec-6-title2">
+          <p>ปัญหา</p>
+          <p>สิทธิมนุษยชน</p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="banner_slide" id="sec6-1">
+          <p class="banner_title">ค่าจ้างที่ต่ำกว่ารายได้ขั้นต่ำ</p>
+          <p class="banner_describe">
+            แรงงานชาวบังคลาเทศได้ค่าจ้างต่ำกว่ารายได้ขั้นต่ำ<br />
+            ตามที่รัฐบาลกำหนด โดยค่าจ้างรายเดือนอยู่ที่ <br />
+            ประมาณ 2,500 บาทต่อเดือน
+          </p>
+        </div>
+        <div class="banner_slide" id="sec6-2">
+          <p class="banner_title">ความเป็นอยู่ไม่เอื้อ</p>
+          <p class="banner_describe">
+            ตึกรานา พลาซา ที่เป็นโรงงานเย็บผ้าหลายบริษัท <br />
+            ประเทศบังกลาเทศ เกิดถล่มลงมาโดยคนที่เสียชีวิต<br />
+            ส่วนใหญ่คือคนงานเย็บผ้า
+          </p>
+        </div>
+        <div class="banner_slide" id="sec6-3">
+          <p class="banner_title">ชั่วโมงงานมากเกินไป</p>
+          <p class="banner_describe">
+            94% ของโรงงานผลิตเสื้อผ้าฟาสต์แฟชั่นในกัมพูชา <br />
+            มีการใช้แรงงานมากกว่าชั่วโมงการทำงานที่กฎหมาย<br />
+            กำหนดโดยไม่ได้รับค่าชดเชย
+          </p>
+        </div>
+        <div class="banner_slide" id="sec6-4">
+          <p class="banner_title">การใช้ความรุนแรง</p>
+          <p class="banner_describe">
+            โรงงานในบังกลาเทศมีการลงโทษด้วยการทุบตีคน <br />
+            งานเพียงเพราะทำยอดการผลิตได้ไม่ถึงเป้าหมาย<br />
+            ซึ่งตัวเลขที่กำหนดไว้สูงเกินกว่าจะเป็นไปได้
+          </p>
+        </div>
+        <div class="banner_slide" id="sec6-5">
+          <p class="banner_title">การล่วงละเมิดทางเพศ</p>
+          <p class="banner_describe">
+            แรงงานผู้หญิงในอุตสาหกรรมการผลิตเสื้อผ้า 14% <br />
+            เคยถูกลวนลามและข่มขืน และผู้หญิง 40 - 50%<br />
+            ถูกย่ำยีศักดิ์ศรีและล่วงละเมิดด้วยคำพูด
+          </p>
+        </div>
+        <div class="banner_slide" id="sec6-6">
+          <p class="banner_title">คนงานที่ยังไม่บรรลุนิติภาวะ</p>
+          <p class="banner_describe">
+            มีเด็กอายุ 5-17 ปี จำนวนกว่า 16.7 ล้านคนเป็น <br />
+            แรงงานในโรงงานผลิตเสื้อผ้า ซึ่งมีสภาพแวดล้อม<br />
+            ไม่เหมาะกับการเติบโตและสุขภาวะที่ดี
+          </p>
+        </div>
+      </div>
+      <div class="sec-6-div">
+        <img class="sec-6-bg" src="/img/assets/h/bg2.png" />
+      </div>
+    </section>
 
-      <section class="sec-6" id="section6">
-        <div class="sec-6-title">
-          <p>ปัญหาสิทธิมนุษยชน</p>
-        </div>
-        <div class="sec-6-group">
-          <div class="clock-1">
-            <img src="/img/assets/g/g02_clock1.png" />
+    <section class="sec-7" id="section7">
+      <div class="sec-7-container-1">
+        <div class="container-1-left">
+          <div class="h08_money">
+            <img src="/img/assets/h/h08_money.png">
           </div>
-          <div class="clock-2">
-            <img src="/img/assets/g/g02_clock2.png" />
+          <div class="h09_hand">
+            <img src="/img/assets/h/h09_hand.png">
           </div>
-          <div class="clock-3">
-            <img src="/img/assets/g/g02_clock3.png" />
+          <div class="h12_flash">
+            <img src="/img/assets/h/h12_flash.png">
           </div>
-          <div class="clock-4">
-            <img src="/img/assets/g/g02_clock4.png" />
+          <div class="h11_t">
+            <img src="/img/assets/h/h11_t.png">
           </div>
-          <div class="shirt-orange">
-            <img src="/img/assets/g/g03_shirt.png" />
+          <div class="h11_r">
+            <img src="/img/assets/h/h11_r.png">
           </div>
-          <div class="g04_woman">
-            <img src="/img/assets/g/g04_woman.png" />
+          <div class="h11_e">
+            <img src="/img/assets/h/h11_e.png">
           </div>
-          <div class="g05_paper">
-            <img src="/img/assets/g/g05_paper.png" />
+          <div class="h11_n">
+            <img src="/img/assets/h/h11_n.png">
           </div>
-        </div>
-        <div class="all_woman">
-          <div class="woman_red">
-            <img src="/img/assets/g/g06_red.png" />
+          <div class="h11_d">
+            <img src="/img/assets/h/h11_d.png">
           </div>
-          <div class="woman_original">
-            <img src="/img/assets/g/g04_woman.png" />
-          </div>
-          <div class="woman_red2">
-            <img src="/img/assets/g/g06_red.png" />
-          </div>
-          <div class="sec-6-title2">
-            <p>ปัญหา</p>
-            <p>สิทธิมนุษยชน</p>
+          <div class="h10_shirt">
+            <img src="/img/assets/h/h10_shirt.png">
           </div>
         </div>
-        <div class="slide">
-          <div class="banner_slide" id="sec6-1">
-            <p class="banner_title">ค่าจ้างที่ต่ำกว่ารายได้ขั้นต่ำ</p>
-            <p class="banner_describe">
-              แรงงานชาวบังคลาเทศได้ค่าจ้างต่ำกว่ารายได้ขั้นต่ำ<br />
-              ตามที่รัฐบาลกำหนด โดยค่าจ้างรายเดือนอยู่ที่ <br />
-              ประมาณ 2,500 บาทต่อเดือน
-            </p>
+        <div class="container-1-right">
+          <div class="right-text-1">
+            <p>ผลกระทบ</p>
           </div>
-          <div class="banner_slide" id="sec6-2">
-            <p class="banner_title">ความเป็นอยู่ไม่เอื้อ</p>
-            <p class="banner_describe">
-              ตึกรานา พลาซา ที่เป็นโรงงานเย็บผ้าหลายบริษัท <br />
-              ประเทศบังกลาเทศ เกิดถล่มลงมาโดยคนที่เสียชีวิต<br />
-              ส่วนใหญ่คือคนงานเย็บผ้า
-            </p>
+          <div class="right-text-2">
+            <p>ต่อผู้บริโภค</p>
           </div>
-          <div class="banner_slide" id="sec6-3">
-            <p class="banner_title">ชั่วโมงงานมากเกินไป</p>
-            <p class="banner_describe">
-              94% ของโรงงานผลิตเสื้อผ้าฟาสต์แฟชั่นในกัมพูชา <br />
-              มีการใช้แรงงานมากกว่าชั่วโมงการทำงานที่กฎหมาย<br />
-              กำหนดโดยไม่ได้รับค่าชดเชย
-            </p>
-          </div>
-          <div class="banner_slide" id="sec6-4">
-            <p class="banner_title">การใช้ความรุนแรง</p>
-            <p class="banner_describe">
-              โรงงานในบังกลาเทศมีการลงโทษด้วยการทุบตีคน <br />
-              งานเพียงเพราะทำยอดการผลิตได้ไม่ถึงเป้าหมาย<br />
-              ซึ่งตัวเลขที่กำหนดไว้สูงเกินกว่าจะเป็นไปได้
-            </p>
-          </div>
-          <div class="banner_slide" id="sec6-5">
-            <p class="banner_title">การล่วงละเมิดทางเพศ</p>
-            <p class="banner_describe">
-              แรงงานผู้หญิงในอุตสาหกรรมการผลิตเสื้อผ้า 14% <br />
-              เคยถูกลวนลามและข่มขืน และผู้หญิง 40 - 50%<br />
-              ถูกย่ำยีศักดิ์ศรีและล่วงละเมิดด้วยคำพูด
-            </p>
-          </div>
-          <div class="banner_slide" id="sec6-6">
-            <p class="banner_title">คนงานที่ยังไม่บรรลุนิติภาวะ</p>
-            <p class="banner_describe">
-              มีเด็กอายุ 5-17 ปี จำนวนกว่า 16.7 ล้านคนเป็น <br />
-              แรงงานในโรงงานผลิตเสื้อผ้า ซึ่งมีสภาพแวดล้อม<br />
-              ไม่เหมาะกับการเติบโตและสุขภาวะที่ดี
-            </p>
+          <div class="right-text-3">
+            <p>ด้วยราคาที่จับต้องได้ จึงกระตุ้นให้<br>
+              ซื้อเสื้อผ้าใหม่ตลอดเวลา และยังเกิด<br>
+              แนวคิดต้องซื้อตามเทรนด์อยู่เสมอ<br>
+              ไม่งั้นจะพลาดเทรนด์จนรู้สึกเสียดาย </p>
           </div>
         </div>
-      </section>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
-    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/split-type"></script>
-    <script src="/javascript/navbar.js"></script>
-    <script src="/javascript/progress.js"></script>
-    <script src="/javascript/section1.js"></script>
-    <script src="/javascript/section2.js"></script>
-    <script src="/javascript/section3.js"></script>
-    <script src="/javascript/section4.js"></script>
-    <script src="/javascript/section5.js"></script>
-    <script src="/javascript/section6.js"></script>
-  </body>
+      </div>
+
+      <div class="sec-7-container-2">
+        <div class="container-2-left">
+          <div class="left-text-1">
+            <p>ส่วนเสื้อผ้าที่<br>
+              ตกเทรนด์แล้ว</p>
+          </div>
+          <div class="left-text-2">
+            <p>จะถูกทิ้ง</p>
+          </div>
+          <div class="left-text-3">
+            <p>แม้ใส่ไม่กี่ครั้งก็ตาม</p>
+          </div>
+        </div>
+        <div class="container-2-right">
+          <div class="h01_paper">
+            <img src="/img/assets/h/h01_paper.png">
+          </div>
+          <div class="h02_star">
+            <img src="/img/assets/h/h02_star.png">
+          </div>
+          <div class="h03_bin">
+            <img src="/img/assets/h/h03_bin.png">
+          </div>
+          <div class="h04_lid">
+            <img src="/img/assets/h/h04_lid.png">
+          </div>
+          <div class="h05_shirt1">
+            <img src="/img/assets/h/h05_shirt1.png">
+          </div>
+          <div class="h06_shirt2">
+            <img src="/img/assets/h/h06_shirt2.png">
+          </div>
+          <div class="h07_old">
+            <img src="/img/assets/h/h07_old.png">
+          </div>
+          <div class="h07_cry">
+            <img src="/img/assets/h/h07_cry.png">
+          </div>
+        </div>
+      </div>
+      <div class="text_down">
+        <p>เกิดวงจรเสื้อผ้าที่ไม่มีวันจบสิ้น</p>
+      </div>
+      <div class="h00_scoll">
+        <img src="/img/assets/h/h00_scoll.png">
+      </div>
+      <div class="slider_container">
+        <div class="slide_text">
+          <div class="boxes">ตกเทรนด์แล้ว ทิ้ง มีเทรนด์ใหม่ ซื้อ ตกเทรนด์แล้ว ทิ้ง มีเทรนด์ใหม่ ซื้อ ตกเทรนด์แล้ว ทิ้ง
+            มีเทรนด์ใหม่ ซื้อ ตกเทรนด์แล้ว ทิ้ง มีเทรนด์ใหม่ ซื้อ ตกเทรนด์แล้ว ทิ้ง มีเทรนด์ใหม่ ซื้อ </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-8">
+      <div class="sec-8-container">
+        <div class="sec-8-title">
+          <p>และนี่คือปัญหาที่เกิดจาก</p>
+        </div>
+        <div class="sec-8-img">
+          <img src="/img/assets/i/i02_fastfashion.png">
+        </div>
+        <div class="quote">
+          <div class="quote_chat1">
+            <img src="/img/assets/i/i03_chat1.png">
+          </div>
+          <div class="quote_chat2">
+            <img src="/img/assets/i/i04_chat2.png">
+          </div>
+        </div>
+        
+      </div>
+<div class="i05_hero">
+          <img src="/img/assets/i/i05_hero.png">
+        </div>
+    </section>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/plugins/ScrollToPlugin.min.js"></script>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/progress.js"></script>
+  <script src="/javascript/section1.js"></script>
+  <script src="/javascript/section2.js"></script>
+  <script src="/javascript/section3.js"></script>
+  <script src="/javascript/section4.js"></script>
+  <script src="/javascript/section5.js"></script>
+  <script src="/javascript/section6.js"></script>
+  <script src="/javascript/section7.js"></script>
+  <script src="/javascript/section8.js"></script>
+</body>
+
 </html>

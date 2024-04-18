@@ -16,7 +16,7 @@ gsap.to(".hanger", {
     scrub: 3
   }
 });
-gsap.set(".search", { yPercent: -20});
+gsap.set(".search", { yPercent: -10});
 gsap.to(".search", {
   yPercent: 50,
   ease: "none",

@@ -33,7 +33,7 @@ sec6_title.to(".sec-6-title", {
   duration: 3,
 });
 
-gsap.set(".clock-1", { yPercent: -100, xPercent:-250, opacity:0});
+gsap.set(".clock-1", { yPercent: -100, xPercent:-10, opacity:0});
 const clock_1 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-1",
@@ -48,13 +48,6 @@ clock_1.to(".clock-1", {
   yPercent: -5,
   xPercent: 5,
   ease: "none",
-  scrollTrigger: {
-    trigger: ".clock-1",
-    start: "center 20%",
-    end: "top+=10",
-    scrub: 3,
-    // markers:true,
-  }, 
 })
 // .to(".clock-1", {
 //   xPercent: -200,
@@ -69,7 +62,7 @@ clock_1.to(".clock-1", {
 // })
 
 
-gsap.set(".clock-2", { yPercent: -150, xPercent:-360,opacity:0 });
+gsap.set(".clock-2", { yPercent: -60, xPercent:-60,opacity:0 });
 const clock_2 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-2",
@@ -99,7 +92,7 @@ clock_2.to(".clock-2", {
 //   }, 
 // })
 
-gsap.set(".clock-3", { yPercent: -150, xPercent:500,opacity:0 });
+gsap.set(".clock-3", { yPercent: -50, xPercent:50,opacity:0 });
 const clock_3 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-3",
@@ -118,7 +111,7 @@ clock_3.to(".clock-3", {
 
 })
 
-gsap.set(".clock-4", { yPercent: -150, xPercent:270,opacity:0 });
+gsap.set(".clock-4", { yPercent: -120, xPercent:50,opacity:0 });
 const clock_4 = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".clock-4",
@@ -137,7 +130,7 @@ clock_4.to(".clock-4", {
 
 })
 
-gsap.set(".shirt-orange", { yPercent: -150, xPercent:550, opacity:0});
+gsap.set(".shirt-orange", { yPercent: -180, xPercent:50, opacity:0});
 const shirt_orange = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".shirt-orange",
@@ -156,7 +149,7 @@ shirt_orange.to(".shirt-orange", {
 
 })
 
-gsap.set(".g04_woman", { yPercent: -50, xPercent:-350, opacity:0});
+gsap.set(".g04_woman", { yPercent: -40, xPercent:-50, opacity:0});
 const women = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".g04_woman",
@@ -173,7 +166,7 @@ women.to(".g04_woman", {
   ease: "none",
 })
 
-gsap.set(".g05_paper", {  yPercent: -190, xPercent:-300, opacity:0});
+gsap.set(".g05_paper", {  yPercent: -190, xPercent:-30, opacity:0});
 const paper = gsap.timeline({ 
   scrollTrigger: {
     trigger: ".g05_paper",
@@ -231,11 +224,12 @@ gsap.to(".woman_red2", {
 
 ScrollTrigger.create({
   trigger: ".all_woman",
-  start: "top-=330px top",
+  start: "top-=350px top",
   end: "bottom+=700 top",
   pin: ".sec-6",
   ease: "power1.out",
   scale: 0,
+  // markers:true,
   // markers: {
   //   startColor: "white",
   //   endColor: "white",
@@ -248,7 +242,7 @@ ScrollTrigger.create({
 
 gsap.set(".banner_slide", { yPercent: 300});
 gsap.to(".banner_slide", {
-  yPercent: -400,
+  yPercent: -300,
   ease: "power4.out",
   duration: 2,
   scrollTrigger: {

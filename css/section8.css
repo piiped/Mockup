@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Prompt', sans-serif;
+
+}
+
+body {
+    margin-top: -10%;
+}
+
+.sec-8{
+    background-color: #1e1e1e;
+    height: 400vh;
+}
+
+.sec-8-title p{
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.sec-8-img{
+    width: 75%;
+    margin: auto;
+}
+.sec-8-img img{
+    width:100%;
+}
+
+.quote{
+    margin-right: 0;
+}
+.quote .quote_chat1{
+    margin-top: -7%;
+    position: absolute;
+    right: 0%;
+}
+.quote_chat1 img{
+    width: 70%;
+}
+
+.quote .quote_chat2{
+    margin-top: 0%;
+    position: absolute;
+    right: 1%;
+}
+.quote_chat2 img{
+    width: 70%;
+}
+
+.i05_hero{
+    position: absolute;
+    margin-top: -50%;
+}
+.i05_hero img{
+    width: 70%;
+}
+
+.i01_halftone{
+    z-index: 1;
+    margin-top: 10%;
+}
+.i01_halftone img{
+    width: 100%;
+}

@@ -17,6 +17,9 @@ body{
     margin: 0;
     padding: 8px 0;
 }
+.text-box{
+    display: flex;
+}
 .text-1{
     position: absolute;
     margin: 7% 17%;
@@ -85,7 +88,9 @@ body{
     background-color:#F49807;
     overflow: hidden;
 }
-
+.shirt{
+    display: flex;
+}
 .shirt-img-1{
     margin: 150px 25%;  
     position: absolute;    
@@ -163,7 +168,9 @@ body{
      width: 180px;
  }
 
-
+.line{
+    display: flex;
+}
 .line-1{
     position: absolute;
     margin: 8% 22%;

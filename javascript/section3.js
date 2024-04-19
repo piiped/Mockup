@@ -1,4 +1,3 @@
-
 gsap.set(".shirt-1", { yPercent: 50});
 gsap.set(".shirt-2", { yPercent: 40});
 gsap.set(".shirt-3", { yPercent: 50});
@@ -106,15 +105,7 @@ gsap.to(".text-1", {
     scrub: 1
   },
 });
-gsap.set(".line-1", { yPercent: 70 });
-gsap.to(".line-1", {
-  yPercent: -50,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".line-1",
-    scrub: 1
-  },
-});
+
 gsap.set(".text-2", { yPercent: 120});
 gsap.to(".text-2", {
   yPercent: -20,
@@ -124,15 +115,7 @@ gsap.to(".text-2", {
     scrub: 1
   },
 });
-gsap.set(".line-2", { yPercent: 70 });
-gsap.to(".line-2", {
-  yPercent: -20,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".line-2",
-    scrub: 1
-  },
-});
+
 gsap.set(".text-3", { yPercent: 150});
 gsap.to(".text-3", {
   yPercent: -20,
@@ -142,30 +125,13 @@ gsap.to(".text-3", {
     scrub: 1
   },
 });
-gsap.set(".line-3", { yPercent: 50 });
-gsap.to(".line-3", {
-  yPercent: -50,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".line-3",
-    scrub: 1
-  },
-});
+
 gsap.set(".text-4", { yPercent: 110});
 gsap.to(".text-4", {
   yPercent: -120,
   ease: "none",
   scrollTrigger: {
     trigger: ".text-4",
-    scrub: 1
-  },
-});
-gsap.set(".line-4", { yPercent: 80 });
-gsap.to(".line-4", {
-  yPercent: -50,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".line-4",
     scrub: 1
   },
 });
@@ -178,12 +144,13 @@ gsap.to(".text-5", {
     scrub: 1
   },
 });
-gsap.set(".line-5", { yPercent: 30 });
-gsap.to(".line-5", {
-  yPercent: -110,
+
+gsap.set(".BornHS__Modal__Input", { yPercent: 30 });
+gsap.to(".BornHS__Modal__Input", {
+  yPercent: -10,
   ease: "none",
   scrollTrigger: {
-    trigger: ".line-5",
+    trigger: ".BornHS__Modal__Input",
     scrub: 1
   },
 });

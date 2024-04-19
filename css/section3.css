@@ -3,6 +3,7 @@
     font-family: 'Prompt', sans-serif;
    
 }
+
 body{
     margin: auto;
 }
@@ -12,84 +13,20 @@ body{
     height: 100vh;
     padding: 20px;
 }
-.sec-3 p{
-    color: #fff;
-    margin: 0;
-    padding: 8px 0;
-}
-.text-box{
+.sec-3-click {
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content:center;
 }
-.text-1{
+.sec-3-click p{
     position: absolute;
-    margin: 7% 17%;
-    z-index: 2;
-}
-.text-1 .box-1 {
-    width: 200px;
-    padding: 0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
-}
-.text-2{
-    position: absolute;
-    margin: 6% 51%;
-    z-index: 2;
-}
-.text-2 .box-2 {
-    width: 150px;
-    height: auto;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
-}
-.text-3{
-    position: absolute;
-    margin: 15% 67%;
-    z-index: 4;
-}
-.text-3 .box-3 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
-}
-.text-4{
-    position: absolute;
-    margin: 34% 15%;
-    z-index: 2;
-}
-.text-4 .box-4 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
-}
-.text-5{
-    position: absolute;
-    margin: 38% 50%;
-    z-index: 2;
-}
-.text-5 .box-5 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+    text-decoration: underline;
+    color: #fff;
 }
 .shirt{
     display: flex;
+    margin-top: 0;
 }
 .shirt-img-1{
     margin: 150px 25%;  
@@ -98,6 +35,7 @@ body{
 .shirt-img-1 .shirt-1{
     width: 300px; 
 }
+
 .shirt-img-2{
     position: absolute;
     margin: 130px 39%;   
@@ -168,50 +106,108 @@ body{
      width: 180px;
  }
 
-.line{
-    display: flex;
+
+.BornHS__Wrapper {
+    position: relative;
+    z-index: 10;
 }
-.line-1{
+.BornHS__Modal__Input{
     position: absolute;
-    margin: 8% 22%;
-    z-index: 1;
 }
-.line-1 img{
-    height: 100px; 
+.BornHS__Wrapper .BornHS__Close {
+    display: none;
+}
+.BornHS__Wrapper .Content__Wrapper {
+    position: relative;
+}
+.BornHS__Wrapper .BornHS__Modal__Content {
+    background: #F49807;
+    border-radius: 5px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.22);
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    width: 360px;
+    z-index: 10;
 }
 
-.line-2{
-    position: absolute;
-    margin: 8% 53%;
-    z-index: 1;
+.BornHS__Modal__Content .Content__Wrapper {
+    padding: 10px;
 }
-.line-2 img{
-    height: 60px;
+.Content__Wrapper .BornHS__Title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top:10px;
+    text-align: center;
 }
-
-.line-3{
-    position: absolute;
-    margin: 17% 70%;
-    z-index: 3;
-}
-.line-3 img{
-    height: 130px;
+.Content__Wrapper p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 
-.line-4{
+
+.BornHS__Wrapper .BornHS__Input {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
     position: absolute;
-    margin: 27% 22%;
-    z-index: 1;
+    text-indent: -9999px;
+    width: 0;
+    z-index: 6;
+    
 }
-.line-4 img{
-    height: 110px;
+.BornHS__Wrapper .BornHS__Input + .BornHS__Label {
+    background: #F49807;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    transition: all 300ms ease;
+    width: 20px;
+    z-index: 8;    
+}
+@media (min-width: 768px) {
+    .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
+        height: 30px;
+        width: 30px;
+   }
+}
+.BornHS__Wrapper .BornHS__Input + .BornHS__Label:before, .BornHS__Wrapper .BornHS__Input + .BornHS__Label:after {
+    background: #fff;
+    content: "";
+    cursor: pointer;
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.BornHS__Wrapper .BornHS__Input + .BornHS__Label:before {
+    height: 2px;
+    width: 40%;
+}
+.BornHS__Wrapper .BornHS__Input + .BornHS__Label:after {
+    height: 40%;
+    width: 2px;
+}
+.BornHS__Wrapper .BornHS__Input ~ .BornHS__Overlay {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 7;
+}
+.BornHS__Wrapper .BornHS__Input:checked + .BornHS__Label {
+    transform: rotate(45deg);
+}
+.BornHS__Wrapper .BornHS__Input:checked ~ .BornHS__Modal__Content {
+    opacity: 1;
+    visibility: visible;
 }
 
-.line-5{
-    position: absolute;
-    margin: 33% 60%;
-    z-index: 3;
-}
-.line-5 img{
-    height: 100px;
-}
+

@@ -1,217 +1,236 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
-*{
-    font-family: 'Prompt', sans-serif;
-   
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Prompt", sans-serif;
 }
-body{
-    margin: auto;
+body {
+  margin: auto;
 }
-.sec-3{
-    background-image: url(/img/assets/c/c01_paper.png);
-    background-color: #1e1e1e;
-    height: 100vh;
-    padding: 20px;
+.sec-3 {
+  background-image: url(/img/assets/c/c01_paper.png);
+  background-color: #1e1e1e;
+  height: 100vh;
+  padding: 20px;
 }
-.sec-3 p{
-    color: #fff;
-    margin: 0;
-    padding: 8px 0;
+.sec-3 p {
+  color: #fff;
+  margin: 0;
+  padding: 8px 0;
 }
-.text-box{
-    display: flex;
+.text-box {
+  display: flex;
+  font-size: 1.757vw;
 }
-.text-1{
-    position: absolute;
-    margin: 7% 17%;
-    z-index: 2;
+.text-1 {
+  position: absolute;
+  margin: 7% 17%;
+  z-index: 2;
 }
 .text-1 .box-1 {
-    width: 200px;
-    padding: 0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+  /* width: 200px; */
+  width: 14.63vw;
+  padding: 0;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f49807;
+  overflow: hidden;
 }
-.text-2{
-    position: absolute;
-    margin: 6% 51%;
-    z-index: 2;
+.text-2 {
+  position: absolute;
+  margin: 6% 51%;
+  z-index: 2;
 }
 .text-2 .box-2 {
-    width: 150px;
-    height: auto;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+  /* width: 150px; */
+  width: 10.97vw;
+  height: auto;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f49807;
+  overflow: hidden;
 }
-.text-3{
-    position: absolute;
-    margin: 15% 67%;
-    z-index: 4;
+.text-3 {
+  position: absolute;
+  margin: 15% 67%;
+  z-index: 4;
 }
 .text-3 .box-3 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+  /* width: 200px; */
+  width: 14.63vw;
+  height: auto;
+  padding: 0;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f49807;
+  overflow: hidden;
 }
-.text-4{
-    position: absolute;
-    margin: 34% 15%;
-    z-index: 2;
+.text-4 {
+  position: absolute;
+  margin: 34% 15%;
+  z-index: 2;
 }
 .text-4 .box-4 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+  /* width: 200px; */
+  width: 14.63vw;
+  height: auto;
+  padding: 0;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f49807;
+  overflow: hidden;
 }
-.text-5{
-    position: absolute;
-    margin: 38% 50%;
-    z-index: 2;
+.text-5 {
+  position: absolute;
+  margin: 38% 50%;
+  z-index: 2;
 }
 .text-5 .box-5 {
-    width: 200px;
-    height: auto;
-    padding:0;
-    text-align: center;
-    border-radius: 25px;
-    background-color:#F49807;
-    overflow: hidden;
+  /* width: 200px; */
+  width: 14.63vw;
+  height: auto;
+  padding: 0;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f49807;
+  overflow: hidden;
 }
-.shirt{
-    display: flex;
+.shirt {
+  display: flex;
 }
-.shirt-img-1{
-    margin: 150px 25%;  
-    position: absolute;    
+.shirt-img-1 {
+  margin: 150px 25%;
+  position: absolute;
 }
-.shirt-img-1 .shirt-1{
-    width: 300px; 
+.shirt-img-1 .shirt-1 {
+  /* width: 300px; */
+  width: 21.94vw;
 }
-.shirt-img-2{
-    position: absolute;
-    margin: 130px 39%;   
+.shirt-img-2 {
+  position: absolute;
+  margin: 130px 39%;
 }
-.shirt-img-2 .shirt-2{
-    width: 300px; 
+.shirt-img-2 .shirt-2 {
+  /* width: 300px; */
+  width: 21.94vw;
 }
-.shirt-img-3{
-    margin: 250px 31%;  
-    position: absolute;
+.shirt-img-3 {
+  margin: 250px 31%;
+  position: absolute;
 }
-.shirt-img-3 .shirt-3{
-    width: 250px;
+.shirt-img-3 .shirt-3 {
+  /* width: 250px; */
+  width: 18.29vw;
 }
-.shirt-img-4{
-    margin: 160px 52%;  
-    position: absolute;
+.shirt-img-4 {
+  margin: 160px 52%;
+  position: absolute;
 }
-.shirt-img-4 .shirt-4{
-    width: 340px;
+.shirt-img-4 .shirt-4 {
+  /* width: 340px; */
+  width: 24.87vw;
 }
-.shirt-img-5{
-    margin: 250px 53%; 
-    position: absolute;
+.shirt-img-5 {
+  margin: 250px 53%;
+  position: absolute;
 }
-.shirt-img-5 .shirt-5{
-    width: 300px;
-}
-
-.shirt-img-6{
-    margin: 140px 48%;   
-    position: absolute;
-    z-index: 1;
-}
-.shirt-img-6 .shirt-6{
-    width: 300px;
-}
-.shirt-img-7{
-    margin: 300px 38%;    
-    position: absolute;
-    z-index: 2;
-}
-.shirt-img-7 .shirt-7{
-    width: 300px; 
-
-}
-.shirt-img-8{
-    margin: 140px 47%; 
-    position: absolute;
-    rotate:10deg;
-}
-.shirt-img-8 .shirt-8{
-    width: 100px;
-}
-.shirt-img-9{
-   margin: 280px 20%; 
-    position: absolute;
-}
-.shirt-img-9 .shirt-9{
-    width: 300px;
-}
-.shirt-img-10{
-    margin: 320px 62%; 
-     position: absolute;
-     z-index: 2;
- }
- .shirt-img-10 .shirt-10{
-     width: 180px;
- }
-
-.line{
-    display: flex;
-}
-.line-1{
-    position: absolute;
-    margin: 8% 22%;
-    z-index: 1;
-}
-.line-1 img{
-    height: 100px; 
+.shirt-img-5 .shirt-5 {
+  /* width: 300px; */
+  width: 24.87vw;
 }
 
-.line-2{
-    position: absolute;
-    margin: 8% 53%;
-    z-index: 1;
+.shirt-img-6 {
+  margin: 140px 48%;
+  position: absolute;
+  z-index: 1;
 }
-.line-2 img{
-    height: 60px;
+.shirt-img-6 .shirt-6 {
+  /* width: 300px; */
+  width: 21.94vw;
+}
+.shirt-img-7 {
+  margin: 300px 38%;
+  position: absolute;
+  z-index: 2;
+}
+.shirt-img-7 .shirt-7 {
+  /* width: 300px; */
+  width: 21.94vw;
+}
+.shirt-img-8 {
+  margin: 140px 47%;
+  position: absolute;
+  rotate: 10deg;
+}
+.shirt-img-8 .shirt-8 {
+  /* width: 100px; */
+  width: 7.32vw;
+}
+.shirt-img-9 {
+  margin: 280px 20%;
+  position: absolute;
+}
+.shirt-img-9 .shirt-9 {
+  /* width: 300px; */
+  width: 21.94vw;
+}
+.shirt-img-10 {
+  margin: 320px 62%;
+  position: absolute;
+  z-index: 2;
+}
+.shirt-img-10 .shirt-10 {
+  /* width: 180px; */
+  width: 13.18vw;
 }
 
-.line-3{
-    position: absolute;
-    margin: 17% 70%;
-    z-index: 3;
+.line {
+  display: flex;
 }
-.line-3 img{
-    height: 130px;
+.line-1 {
+  position: absolute;
+  margin: 8% 22%;
+  z-index: 1;
 }
-
-.line-4{
-    position: absolute;
-    margin: 27% 22%;
-    z-index: 1;
-}
-.line-4 img{
-    height: 110px;
+.line-1 img {
+  /* height: 100px; */
+  height: 7.29vw;
 }
 
-.line-5{
-    position: absolute;
-    margin: 33% 60%;
-    z-index: 3;
+.line-2 {
+  position: absolute;
+  margin: 8% 53%;
+  z-index: 1;
 }
-.line-5 img{
-    height: 100px;
+.line-2 img {
+  /* height: 60px; */
+  height: 4.39vw;
+}
+
+.line-3 {
+  position: absolute;
+  margin: 17% 70%;
+  z-index: 3;
+}
+.line-3 img {
+  /* height: 130px; */
+  height: 9.52vw;
+}
+
+.line-4 {
+  position: absolute;
+  margin: 27% 22%;
+  z-index: 1;
+}
+.line-4 img {
+  /* height: 100px; */
+  height: 7.29vw;
+}
+
+.line-5 {
+  position: absolute;
+  margin: 33% 60%;
+  z-index: 3;
+}
+.line-5 img {
+  /* height: 100px; */
+  height: 7.29vw;
 }

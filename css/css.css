@@ -18,14 +18,14 @@
  html {
      scroll-behavior: smooth;
 }
- /* .wrapweb {
+ .wrapweb {
      overflow-x: hidden;
      overflow-y: hidden;
      position: relative;
      margin-top: -6.735vw;
      padding-top: 5.564vw;
      scroll-behavior: smooth;
-} */
+}
  .navbar {
      margin: 5px;
      position: -webkit-sticky;
@@ -190,7 +190,7 @@
      .sec-1 {
          position: relative;
          background-size: contain;
-         margin-bottom: 7.321vw;
+         margin: 20vh 0 20vh 0;
     }
      .cover {
         /* min-height: 768px;
@@ -206,21 +206,21 @@
         /* top: -30vw;
          right: -6vw;
          */
-         margin: -10% 75%;
+         margin: -20% 0 0 72%;
     }
      .wrapper_1 img {
-         width: 30vw;
+         width: 40vw;
     }
      .cover .wrapper_2 {
          position: absolute;
-         margin: 12% 67%;
+         margin: 17% 0 0 65%;
     }
      .wrapper_2 img {
-         width: 9.517vw;
+         width: 12vw;
     }
      .cover .wrapper_3 {
          position: absolute;
-         margin: 21% 0;
+         margin: 30% 0;
     }
      .wrapper_3 img {
          width: 100vw;
@@ -387,7 +387,7 @@
      .title .bg{
          position: absolute;
          z-index: -2;
-         margin: -23% 0;
+         margin: -20% 0;
     }
      .bg img{
          width: 100vw;
@@ -398,7 +398,7 @@
      .sec-1 {
          position: relative;
          background-size: contain;
-         margin-bottom: 100px;
+         margin: 18vh 0 18vh 0;
     }
      .cover {
         /* min-height: 768px;
@@ -409,21 +409,21 @@
     }
      .cover .wrapper_1 {
          position: absolute;
-         margin: -12% 75%;
+         margin: -12% 0 0 75%;
     }
      .wrapper_1 img {
-         width: 30vw;
+         width: 35vw;
     }
      .cover .wrapper_2 {
          position: absolute;
-         margin: 12% 67%;
+         margin:17% 67%;
     }
      .wrapper_2 img {
          width: 9.517vw;
     }
      .cover .wrapper_3 {
          position: absolute;
-         margin: 21% 0;
+         margin: 27% 0;
     }
      .wrapper_3 img {
          width: 100vw;

@@ -1,348 +1,368 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap");
 
 * {
-    font-family: 'Prompt', sans-serif;
-
+  font-family: "Prompt", sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .sec-7 {
-    background-color: #fff0f0;
-    height: 350vh;
+  margin-top: -10px;
+  padding-top: 20vw;
+  background-color: #1e1e1e;
+  height: 350vh;
+  background-image: url(/img/assets/h/h00_bg.png);
 }
 
 .sec-7-container-1 {
-    display: flex;
-    flex-basis: 2;
-    justify-content: space-around;
-    place-content: space-around;
+  display: flex;
+  flex-basis: 2;
+  justify-content: space-around;
+  place-content: space-around;
 }
 
 .sec-7-container-1 .container-1-left {
-    z-index: 10;
+  z-index: 10;
 }
 
 .h08_money img {
-    width: 300px;
-    margin-top: 50px;
+  /* width: 300px; */
+  width: 21.962vw;
+  margin-top: 50px;
 }
 
-
-
 .sec-7-container-1 .container-1-right {
-    z-index: 10;
+  z-index: 10;
 }
 
 .right-text-1 p {
-    margin-bottom: 0;
-    text-align: center;
-    font-weight: 900;
-    font-size: 80px;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 900;
+  /* font-size: 80px; */
+  font-size: 5.857vw;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .right-text-2 p {
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-    line-height: 50px;
-    font-weight: 900;
-    font-size: 70px;
-    color: #fff;
-    border: 1px #000000;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 900;
+  /* font-size: 70px; */
+  font-size: 5.124vw;
+  color: #fff;
+  border: 1px #000000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .right-text-3 p {
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 32px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  /* font-size: 28px;
+  line-height: 32px; */
+  font-size: 2.05vw;
+  line-height: 2.343vw;
 }
 
-
-
-
-
 .h09_hand {
-    position: absolute;
-    left: 15%;
-    margin-top: -20%;
-    z-index: 11;
+  position: absolute;
+  left: 15%;
+  margin-top: -20%;
+  z-index: 11;
 }
 
 .h09_hand img {
-    width: 400px;
+  /* width: 400px; */
+  width: 29.283vw;
 }
 
 .h12_flash {
-    position: absolute;
-    left: 42%;
-    margin-top: -22%;
-    z-index: 11;
-    
+  position: absolute;
+  left: 42%;
+  margin-top: -22%;
+  z-index: 11;
 }
 
 .h12_flash img {
-    width: 100px;
+  /* width: 100px; */
+  width: 7.321vw;
 }
 
 .h11_t {
-    position: absolute;
-    left: 18%;
-    margin-top: -22%;
-    z-index: 11;
+  position: absolute;
+  left: 18%;
+  margin-top: -22%;
+  z-index: 11;
 }
 
 .h11_t img {
-    width: 70px;
+  /* width: 70px; */
+  width: 5.124vw;
 }
 
 .h11_r {
-    position: absolute;
-    left: 17%;
-    margin-top: -16%;
-    z-index: 11;
+  position: absolute;
+  left: 17%;
+  margin-top: -16%;
+  z-index: 11;
 }
 
 .h11_r img {
-    width: 70px;
+  /* width: 70px; */
+  width: 5.124vw;
 }
 
 .h11_e {
-    position: absolute;
-    left: 19%;
-    margin-top: -10%;
-    z-index: 11;
+  position: absolute;
+  left: 19%;
+  margin-top: -10%;
+  z-index: 11;
 }
 
 .h11_e img {
-    width: 70px;
+  /* width: 70px; */
+  width: 5.124vw;
 }
 
 .h11_n {
-    position: absolute;
-    left: 17%;
-    margin-top: -4%;
-    z-index: 11;
+  position: absolute;
+  left: 17%;
+  margin-top: -4%;
+  z-index: 11;
 }
 
 .h11_n img {
-    width: 70px;
+  /* width: 70px; */
+  width: 5.124vw;
 }
 
 .h11_d {
-    position: absolute;
-    left: 20%;
-    margin-top: 1%;
-    z-index: 11;
+  position: absolute;
+  left: 20%;
+  margin-top: 1%;
+  z-index: 11;
 }
 
 .h11_d img {
-    width: 60px;
+  /* width: 60px; */
+  width: 4.392vw;
 }
 
-.h10_shirt{
-    position: absolute;
-    left: 29%;
-    margin-top: -20%;
-    z-index: 11;
+.h10_shirt {
+  position: absolute;
+  left: 29%;
+  margin-top: -20%;
+  z-index: 11;
 }
-.h10_shirt img{
-    width: 130px;
+.h10_shirt img {
+  /* width: 130px; */
+  width: 9.517vw;
 }
 
 .sec-7-container-2 {
-    margin-top: 300px;
-    display: flex;
-    flex-basis: 2;
-    justify-content: space-around;
-    place-content: space-around;
+  margin-top: 300px;
+  display: flex;
+  flex-basis: 2;
+  justify-content: space-around;
+  place-content: space-around;
 }
 
 .sec-7-container-2 .container-2-left {
-    z-index: 10;
+  z-index: 10;
 }
-.left-text-1 p{
-    text-align: center;
-    margin-top: 200px;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 45px;
+.left-text-1 p {
+  text-align: center;
+  /* margin-top: 200px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 45px; */
+  margin-top: 14.641vw;
+  font-weight: 500;
+  font-size: 3.66vw;
+  line-height: 3.294vw;
 }
-.left-text-2 p{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 45px;
-    color: #CA2D2D;
+.left-text-2 p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 800;
+  /* font-size: 100px;
+  line-height: 45px; */
+  font-size: 7.321vw;
+  line-height: 3.294vw;
+  color: #ca2d2d;
 }
-.left-text-3 p{
-    text-align: center;
-    margin-top: 0px;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 150px;
+.left-text-3 p {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: 500;
+  /* font-size: 50px;
+  line-height: 150px; */
+  font-size: 3.66vw;
+  line-height: 10.981vw;
 }
 
 .sec-7-container-2 .container-2-right {
-    z-index: 10;
+  z-index: 10;
 }
 
-.h01_paper img{
-    width: 450px;
-    margin-top: 50px;
+.h01_paper img {
+  /* width: 450px;
+  margin-top: 50px; */
+  width: 32.943vw;
+  margin-top: 3.66vw;
 }
 
-.h02_star{
-    position: absolute;
-    right: 12%;
-    margin-top: -10%;
-    z-index: 11;
+.h02_star {
+  position: absolute;
+  right: 12%;
+  margin-top: -10%;
+  z-index: 11;
 }
-.h02_star img{
-    width: 170px;
-}
-
-.h03_bin{
-    position: absolute;
-    right: 10%;
-    margin-top: -35%;
-    z-index: 11;
-}
-.h03_bin img{
-    width: 400px;
+.h02_star img {
+  /* width: 170px; */
+  width: 12.445vw;
 }
 
-.h04_lid{
-    position: absolute;
-    right: 7%;
-    margin-top: -30%;
-    z-index: 11;
+.h03_bin {
+  position: absolute;
+  right: 10%;
+  margin-top: -35%;
+  z-index: 11;
 }
-.h04_lid img{
-    width: 150px;
-}
-
-.h05_shirt1{
-    position: absolute;
-    right: 12%;
-    margin-top: -41%;
-    z-index: 11;
-}
-.h05_shirt1 img{
-    width: 240px;
+.h03_bin img {
+  /* width: 400px; */
+  width: 29.283vw;
 }
 
-.h06_shirt2{
-    position: absolute;
-    right: 25%;
-    margin-top: -28%;
-    z-index: 11;
+.h04_lid {
+  position: absolute;
+  right: 7%;
+  margin-top: -30%;
+  z-index: 11;
 }
-.h06_shirt2 img{
-    width: 150px;
-}
-
-.h07_old{
-    position: absolute;
-    right: 25%;
-    margin-top: -12%;
-    z-index: 11;
-}
-.h07_old img{
-    width: 120px;
+.h04_lid img {
+  /* width: 150px; */
+  width: 10.981vw;
 }
 
-.h07_cry{
-    position: absolute;
-    right: 20%;
-    margin-top: -8%;
-    z-index: 11;
+.h05_shirt1 {
+  position: absolute;
+  right: 12%;
+  margin-top: -41%;
+  z-index: 11;
 }
-.h07_cry img{
-    width: 90px;
+.h05_shirt1 img {
+  /* width: 240px; */
+  width: 17.57vw;
 }
 
-.text_down p{
-    margin-top: 20%;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
+.h06_shirt2 {
+  position: absolute;
+  right: 25%;
+  margin-top: -28%;
+  z-index: 11;
+}
+.h06_shirt2 img {
+  /* width: 150px; */
+  width: 10.981vw;
+}
+
+.h07_old {
+  position: absolute;
+  right: 25%;
+  margin-top: -12%;
+  z-index: 11;
+}
+.h07_old img {
+  /* width: 120px; */
+  width: 8.785vw;
+}
+
+.h07_cry {
+  position: absolute;
+  right: 20%;
+  margin-top: -8%;
+  z-index: 11;
+}
+.h07_cry img {
+  /* width: 90px; */
+  width: 6.589vw;
+}
+
+.text_down p {
+  margin-top: 20%;
+  text-align: center;
+  /* font-size: 50px; */
+  font-size: 3.66vw;
+  font-weight: 500;
 }
 
 .h00_scoll {
-    margin: 5% 0;
-    align-items: center;
-    align-content: center;
-    align-self: center;
+  margin: 5% 0;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
-.h00_scoll img{
-    width: 100%;
-}
-
-.slider_container{
-    position: relative;
-    width:150%;
-    height:250px;
-    margin-top: -20%;
-    overflow:hidden;
-}
-.slider_container .slider_container *{
-    overflow: hidden;
+.h00_scoll img {
+  width: 100%;
 }
 
-  .slider_container .slide_text{
-    position: absolute;
-    animation: move-right-to-left 45s infinite;
-    min-width: 100%;
-    color:#fff;
-    text-shadow: -2px 2px 0 #000,
-        2px 2px 0 #000,
-        2px -2px 0 #000,
-        -2px -2px 0 #000;
-    font-size:100px;
-    font-weight:600;
-    line-height:200px;
-  }
-  .slider_container .boxes {
-    position:relative;
-    white-space: nowrap;
-  }
+.slider_container {
+  position: relative;
+  width: 150%;
+  height: 250px;
+  margin-top: -20%;
+  overflow: hidden;
+}
+.slider_container .slider_container * {
+  overflow: hidden;
+}
 
-  /* @keyframes move {
+.slider_container .slide_text {
+  position: absolute;
+  animation: move-right-to-left 45s linear infinite;
+  min-width: 100%;
+  color: #fff;
+  text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 200px;
+}
+.slider_container .boxes {
+  position: relative;
+  white-space: nowrap;
+}
+
+/* @keyframes move {
     from { left: 50%; }
     to { left: -100%; }
   } */
 
-  /* use this one to move from left to right direction */
+/* use this one to move from left to right direction */
 @keyframes move-right-to-left {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* use this one to move from right to left direction */
 @keyframes move-left-to-right {
-    from {
-        transform: translateX(-50%);
-    }
-    to {
-        transform: translateX(0%);
-    }
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }

@@ -1,72 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
-*{
-    font-family: 'Prompt', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Prompt", sans-serif;
 }
-body{
-    margin: auto;
+body {
+  margin: auto;
 }
-.sec-4{
-    height: 1200px;
-    background-color: #FA9396; 
-    background-image: linear-gradient(#FA9396, #F49807, #79A3B3 );
+.sec-4 {
+  margin-top: -2px;
+  /* height: 1200px; */
+  height: 87.76vw;
+  background-color: #fa9396;
+  background-image: linear-gradient(#fa9396, #f49807, #79a3b3);
+}
+.cloud {
+  margin-bottom: 0;
+}
+.cloud .c_1 {
+  position: absolute;
+  margin: -2% -15%;
+}
+.c_1 img {
+  /* width: 550px; */
+  width: 40.22vw;
+}
+.cloud .c_2 {
+  position: absolute;
+  margin: -2% 70%;
+}
+.c_2 img {
+  /* width: 800px; */
+  width: 58.46vw;
+}
+.cloud .c_3 {
+  position: absolute;
+  margin: 20% -25%;
+  z-index: 1;
+}
+.c_3 img {
+  /* width: 600px; */
+  width: 43.88vw;
+  opacity: 85%;
+}
+.cloud .c_4 {
+  position: absolute;
+  margin: 30% 50%;
+}
+.c_4 img {
+  /* width: 500px; */
+  width: 36.57vw;
+}
+.cloud .btf {
+  position: absolute;
+  margin: 30% 80%;
+}
+.btf img {
+  /* width: 120px; */
+  width: 8.78vw;
+}
+.sec-4 .sec4_text {
+  position: absolute;
+  margin: 15% 45%;
+  width: 600px;
+  width: 43.88vw;
+}
+.sec4_text p {
+  /* font-size: 50px; */
+  font-size: 3.66vw;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+}
 
-}
-.cloud{
-    margin-bottom: 0;
-}
-.cloud .c_1{
-    position: absolute;
-    margin: -2% -15%;
-}
-.c_1 img{
-    width:550px;
-}
-.cloud .c_2{
-    position: absolute;
-    margin: -2% 70%;
-}
-.c_2 img{
-    width: 800px;
-}
-.cloud .c_3{
-    position: absolute;
-    margin: 20% -25%;
-    z-index: 1;
-}
-.c_3 img{
-    width: 600px;
-    opacity: 85%;
-}
-.cloud .c_4{
-    position: absolute;
-    margin: 30% 50%;
-}
-.c_4 img{
-
-    width: 500px;
-}
-.cloud .btf{
-    position: absolute;
-    margin: 30% 80%;
-}
-.btf img{
-    width: 120px;
-}
-.sec-4 .sec4_text{
-    position: absolute;
-    margin: 15% 45%;
-    width: 600px;
-}
-.sec4_text p{
-    font-size: 50px;
-    text-align: right;
-    color: #fff;
-    font-weight: bold;
-}
-
-.sec-4 .cloud_cover{
-    position: absolute;
-    margin-top: 50%;
-    z-index: 2;
-    transition: ease-in-out;
+.sec-4 .cloud_cover {
+  position: absolute;
+  margin-top: 50%;
+  z-index: 2;
+  transition: ease-in-out;
 }

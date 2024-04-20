@@ -28,10 +28,12 @@ body {
 }
 .shirt {
   display: flex;
-  margin-top: 0;
+  margin-top: 6vw;
 }
 .shirt-img-1 {
-  margin: 150px 25%;
+  /* margin: 150px 25%; */
+  left: 21.303vw;
+  margin-top: 1.684vw;
   position: absolute;
 }
 .shirt-img-1 .shirt-1 {
@@ -41,22 +43,27 @@ body {
 
 .shirt-img-2 {
   position: absolute;
-  margin: 130px 39%;
+  /* margin: 130px 39%; */
+  left: 37vw;
 }
 .shirt-img-2 .shirt-2 {
   /* width: 300px; */
-  width: 21.94vw;
+  width: 24vw;
 }
 .shirt-img-3 {
-  margin: 250px 31%;
+  /* margin: 250px 31%; */
+  left: 27vw;
+  margin-top: 7vw;
   position: absolute;
 }
 .shirt-img-3 .shirt-3 {
   /* width: 250px; */
-  width: 18.29vw;
+  width: 22.29vw;
 }
 .shirt-img-4 {
-  margin: 160px 52%;
+  /* margin: 160px 52%; */
+  left: 54vw;
+  margin-top: 2vw;
   position: absolute;
 }
 .shirt-img-4 .shirt-4 {
@@ -64,16 +71,20 @@ body {
   width: 24.87vw;
 }
 .shirt-img-5 {
-  margin: 250px 53%;
+  /* margin: 250px 53%; */
+  left: 57vw;
+  margin-top: 4vw;
   position: absolute;
 }
 .shirt-img-5 .shirt-5 {
   /* width: 300px; */
-  width: 24.87vw;
+  width: 22vw;
 }
 
 .shirt-img-6 {
-  margin: 140px 48%;
+  /* margin: 140px 48%; */
+  left: 48vw;
+  margin-top: 3vw;
   position: absolute;
   z-index: 1;
 }
@@ -82,7 +93,9 @@ body {
   width: 21.94vw;
 }
 .shirt-img-7 {
-  margin: 300px 38%;
+  /* margin: 300px 38%; */
+  left: 38vw;
+  margin-top: 13vw;
   position: absolute;
   z-index: 2;
 }
@@ -91,7 +104,9 @@ body {
   width: 21.94vw;
 }
 .shirt-img-8 {
-  margin: 140px 47%;
+  /* margin: 140px 47%; */
+  left: 49vw;
+  margin-top: 1.5vw;
   position: absolute;
   rotate: 10deg;
 }
@@ -100,21 +115,25 @@ body {
   width: 7.32vw;
 }
 .shirt-img-9 {
-  margin: 280px 20%;
+  /* margin: 280px 20%; */
+  left: 18vw;
+  margin-top: 11vw;
   position: absolute;
 }
 .shirt-img-9 .shirt-9 {
   /* width: 300px; */
-  width: 21.94vw;
+  width: 24.94vw;
 }
 .shirt-img-10 {
-  margin: 320px 62%;
+  /* margin: 320px 62%; */
+  left: 66vw;
+  margin-top: 12vw;
   position: absolute;
   z-index: 2;
 }
 .shirt-img-10 .shirt-10 {
   /* width: 180px; */
-  width: 13.177vw;
+  width: 12vw;
 }
 
 .BornHS__Wrapper {
@@ -133,11 +152,11 @@ body {
 .BornHS__Wrapper .BornHS__Modal__Content {
   /* padding: 10px; */
   padding: 0.732vw;
-  background: #f49807;
+  background: #ffffff;
   /* border-radius: 25px; */
   border-radius: 1.83vw;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.22);
-  color: #fff;
+  color: #1e1e1e;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   visibility: hidden;
@@ -175,7 +194,7 @@ body {
   z-index: 6;
 }
 .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
-  background: #f49807;
+  background: #ca2d2d;
   border-radius: 50%;
   cursor: pointer;
   height: 20px;

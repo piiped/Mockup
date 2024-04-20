@@ -669,7 +669,7 @@ progress::-moz-progress-bar {
 }
 .progress-bar {
   height: 0.586vw;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to left,
     #db38b5,
     #01b3e3,
@@ -677,7 +677,8 @@ progress::-moz-progress-bar {
     #fdc741,
     #ff6b01,
     #fc4236
-  );
+  ); */
+  background-color: white;
   width: 0%;
   background-attachment: fixed;
 }

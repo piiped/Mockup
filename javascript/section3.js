@@ -167,6 +167,5 @@ gsap.to(".BornHS__Modal__Input", {
     scrub: 1,
     start: "top center",
     end: "bottom bottom ",
-    markers: true,
   },
 });

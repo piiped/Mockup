@@ -680,6 +680,7 @@ progress::-moz-progress-bar {
   ); */
   background-color: white;
   width: 0%;
+  border-radius: 20px;
   background-attachment: fixed;
 }
 /* loader animation*/

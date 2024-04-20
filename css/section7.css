@@ -14,6 +14,8 @@ body {
   background-color: #1e1e1e;
   height: 350vh;
   background-image: url(/img/assets/h/h00_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sec-7-container-1 {
@@ -38,22 +40,21 @@ body {
 }
 
 .right-text-1 p {
-    color: #1E1E1E;
-    margin-bottom: 0;
-    text-align: center;
-    font-weight: 900;
-    font-size: 5.857vw;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+  color: #1e1e1e;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 5.857vw;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .right-text-2 p {
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
-  line-height: 50px;
+  /* line-height: 50px; */
+  line-height: 3.66vw;
   font-weight: 900;
   /* font-size: 70px; */
   font-size: 5.124vw;
@@ -65,13 +66,12 @@ body {
 
 .right-text-3 p {
   line-height: 2.343vw;
-  line-height: 2.343vw;
-    color: #1E1E1E;
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 500;
-     font-size: 2.05vw;
-  line-height: 2.343vw;
+  color: #1e1e1e;
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-top: 3.66vw;
+  font-weight: 500;
+  font-size: 2.05vw;
 }
 
 .h09_hand {
@@ -181,7 +181,7 @@ body {
   z-index: 10;
 }
 .left-text-1 p {
- color: #1E1E1E;
+  color: #1e1e1e;
   text-align: center;
   /* margin-top: 200px;
   font-weight: 500;
@@ -203,12 +203,12 @@ body {
   line-height: 3.294vw;
   color: #ca2d2d;
 }
-.left-text-3 p{
-    color: #1E1E1E;
-    text-align: center;
-    margin-top: 0px;
-    font-weight: 500;
-    font-size: 3.66vw;
+.left-text-3 p {
+  color: #1e1e1e;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 3.66vw;
   line-height: 10.981vw;
 }
 
@@ -321,7 +321,8 @@ body {
 .slider_container {
   position: relative;
   width: 150%;
-  height: 250px;
+  /* height: 250px; */
+  height: 18.315vw;
   margin-top: -20%;
   overflow: hidden;
 }
@@ -336,9 +337,11 @@ body {
   color: #fff;
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
     -2px -2px 0 #000;
-  font-size: 100px;
+  /* font-size: 100px; */
+  font-size: 7.321vw;
   font-weight: 600;
-  line-height: 200px;
+  /* line-height: 200px; */
+  line-height: 14.642vw;
 }
 .slider_container .boxes {
   position: relative;

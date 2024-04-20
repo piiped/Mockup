@@ -1,49 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap");
 
 * {
-    font-family: 'Prompt', sans-serif;
-
+  font-family: "Prompt", sans-serif;
 }
 
 body {
-    margin: 0;
-    
+  margin: 0;
 }
-.sec-10{
-    background-color: #79A3B3;
-    height: 250vh;
+.sec-10 {
+  background-color: #79a3b3;
+  /* height: 200vh; */
+  padding-bottom: 3.66vw;
 }
-.j00_halftone img{
-    margin-top: 0;
-    width: 100%;
+.j00_halftone img {
+  margin-top: 0;
+  width: 100%;
 }
-.sec-10-title{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top:20px ;
-    z-index: 1;
+.sec-10-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  z-index: 1;
 }
-.sec-10-title p{
-    font-size: 120px;
-    color: #1E1E1E;
-    margin-bottom: 0;
-    padding-top: 10;
-    line-height: 140px;
-    text-align: center;
-    font-weight: 800;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
-}
-.member{
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    margin: 150px 300px;
 
+.sec-10-title p {
+  /* font-size: 120px; */
+  font-size: 8.785vw;
+  color: #1e1e1e;
+  margin-bottom: 0;
+  padding-top: 10;
+  /* line-height: 140px; */
+  line-height: 10.249vw;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
-.member img{
-    width: 90%;
+.member {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  /* margin: 150px 300px; */
+  margin: 10.98vw 21.94vw;
+}
+.member img {
+  width: 49.414vw;
 }

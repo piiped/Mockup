@@ -26,7 +26,7 @@ body {
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
     -2px -2px 0 #000;
 }
-
+/* TODO: ปรับตำแหน่งรูป */
 .sec-6-group .clock-1 {
   margin-top: -79%;
   margin-left: 27%;
@@ -34,7 +34,8 @@ body {
   z-index: 2;
 }
 .clock-1 img {
-  width: 350px;
+  /* width: 350px; */
+  width: 25.55vw;
 }
 
 .sec-6-group .clock-2 {
@@ -44,7 +45,8 @@ body {
   z-index: 2;
 }
 .clock-2 img {
-  width: 300px;
+  /* width: 300px; */
+  width: 21.89vw;
 }
 
 .sec-6-group .clock-3 {
@@ -54,7 +56,8 @@ body {
   z-index: 2;
 }
 .clock-3 img {
-  width: 300px;
+  /* width: 300px; */
+  width: 21.89vw;
 }
 
 .sec-6-group .clock-4 {
@@ -64,7 +67,8 @@ body {
   z-index: 2;
 }
 .clock-4 img {
-  width: 540px;
+  /* width: 540px; */
+  width: 39.42vw;
 }
 
 .sec-6-group .shirt-orange {
@@ -75,7 +79,8 @@ body {
 }
 
 .shirt-orange img {
-  width: 230px;
+  /* width: 230px; */
+  width: 16.78vw;
 }
 
 .sec-6-group .g04_woman {
@@ -86,7 +91,8 @@ body {
 }
 
 .g04_woman img {
-  width: 750px;
+  /* width: 750px; */
+  width: 54.905vw;
 }
 
 .sec-6-group .g05_paper {
@@ -97,7 +103,8 @@ body {
 }
 
 .g05_paper img {
-  width: 350px;
+  /* width: 350px; */
+  width: 25.55vw;
 }
 
 .all_woman .woman_red {
@@ -107,7 +114,8 @@ body {
   z-index: 6;
 }
 .woman_red img {
-  width: 540px;
+  /* width: 540px; */
+  width: 39.531vw;
 }
 
 .all_woman .woman_original {
@@ -117,7 +125,8 @@ body {
   z-index: 6;
 }
 .woman_original img {
-  width: 544px;
+  /* width: 544px; */
+  width: 39.531vw;
 }
 
 .all_woman .woman_red2 {
@@ -127,7 +136,8 @@ body {
   z-index: 6;
 }
 .woman_red2 img {
-  width: 544px;
+  /* width: 544px; */
+  width: 39.824vw;
 }
 
 .sec-6 .sec-6-title2 {
@@ -139,7 +149,8 @@ body {
 .sec-6-title2 p {
   padding: 0;
   margin: 0;
-  line-height: 100px;
+  /* line-height: 100px; */
+  line-height: 7.321vw;
   /* font-size: 100px; */
   font-size: 7.321vw;
   color: #fff;

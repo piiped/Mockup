@@ -689,6 +689,7 @@ progress::-moz-progress-bar {
   aspect-ratio: 4;
   display: grid;
   margin-right: 6vh;
+  padding: 10vw 0;
 }
 .loader:before,
 .loader:after {
@@ -733,10 +734,15 @@ progress::-moz-progress-bar {
 }
 .intro .intro-text {
   color: white;
-  font-size: 3rem;
+  font-size: 2vw;
   text-align: center;
   width: auto;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .slider {
   background: #79a3b3;

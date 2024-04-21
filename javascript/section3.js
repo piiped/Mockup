@@ -96,54 +96,6 @@ gsap.to(".shirt-6", {
     duration: 2,
   },
 });
-gsap.set(".text-1", { yPercent: 160 });
-gsap.to(".text-1", {
-  yPercent: -50,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".text-1",
-    scrub: 1,
-  },
-});
-
-gsap.set(".text-2", { yPercent: 120 });
-gsap.to(".text-2", {
-  yPercent: -20,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".text-2",
-    scrub: 1,
-  },
-});
-
-gsap.set(".text-3", { yPercent: 150 });
-gsap.to(".text-3", {
-  yPercent: -20,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".text-3",
-    scrub: 1,
-  },
-});
-
-gsap.set(".text-4", { yPercent: 110 });
-gsap.to(".text-4", {
-  yPercent: -120,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".text-4",
-    scrub: 1,
-  },
-});
-gsap.set(".text-5", { yPercent: 30 });
-gsap.to(".text-5", {
-  yPercent: -280,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".text-5",
-    scrub: 1,
-  },
-});
 
 // gsap.set(".BornHS__Modal__Input", { yPercent: 30 });
 // gsap.to(".BornHS__Modal__Input", {

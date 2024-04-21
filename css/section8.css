@@ -24,7 +24,8 @@ body {
   text-align: center;
 }
 .sec-8-img {
-  width: 75%;
+  /* width: 75%; */
+  width: 62%;
   margin: auto;
 }
 .sec-8-img img {
@@ -42,7 +43,8 @@ body {
 }
 .quote_chat1 img {
   /* width: 70%; */
-  width: 27.086vw;
+  /* width: 27.086vw; */
+  height: 6vw;
 }
 
 .quote .quote_chat2 {
@@ -52,7 +54,8 @@ body {
 }
 .quote_chat2 img {
   /* width: 70%; */
-  width: 23.426vw;
+  /* width: 23.426vw; */
+  height: 6vw;
 }
 
 .i05_hero {

@@ -47,8 +47,8 @@ ScrollTrigger.create({
 //     scrub: 0,
 //   },
 // });
-gsap.set(".quote_chat1", { yPercent: 25, opacity: 0 });
-gsap.set(".quote_chat2", { yPercent: 20, opacity: 0 });
+gsap.set(".quote_chat1", { yPercent: -2, opacity: 0 });
+gsap.set(".quote_chat2", { yPercent: -35, opacity: 0 });
 
 const sec8 = gsap.timeline({
   defaults: { ease: "power2.out" },

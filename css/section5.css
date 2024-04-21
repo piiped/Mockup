@@ -109,8 +109,34 @@ body {
 
 .sec-5-div .sec-5-bg {
   position: absolute;
-  margin-top: 220%;
+  /* margin-top: 16.667vw; */
+  margin-top: 220vw;
   z-index: 1;
+}
+/* --------DELL-------- */
+@media only screen and (min-width: 3840px) {
+  .sec-5-div .sec-5-bg {
+    margin-top: 110vw;
+  }
+}
+/* --------PC-------- */
+@media only screen and (min-width: 1366px) and (max-width: 3839px) {
+  .sec-5-div .sec-5-bg {
+    margin-top: 220vw;
+  }
+}
+
+/* --------TABLET-------- */
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .sec-5-div .sec-5-bg {
+    margin-top: 300vw;
+  }
+}
+/* --------MOBILE-------- */
+@media only screen and (min-width: 390px) and (max-width: 1023px) {
+  .sec-5-div .sec-5-bg {
+    margin-top: 350vw;
+  }
 }
 
 .sec-5 .sec-5-title {

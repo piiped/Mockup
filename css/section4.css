@@ -73,7 +73,8 @@ body {
 
 .sec-4 .cloud_cover {
   position: absolute;
-  margin-top: 50%;
+  /* margin-top: 50%; */
+  margin-top: 60vw;
   z-index: 2;
   transition: ease-in-out;
 }

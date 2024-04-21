@@ -8,15 +8,17 @@ body {
 .sec-6 {
   background-color: #1e1e1e;
   /* height: 300vh; */
-  height: 230vh;
+  height: 250vh;
+  /* height: 129.312vw; */
 }
 .sec-6 .sec-6-title {
-  padding-top: 850px;
+  /* padding-top: 850px; */
+  padding-top: 62.225vw;
   align-items: center;
   position: relative;
   z-index: 6;
 }
-.sec-6-title p {
+.sec-6-title {
   text-align: center;
   /* font-size: 100px; */
   font-size: 7.321vw;
@@ -26,10 +28,12 @@ body {
   text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
     -2px -2px 0 #000;
 }
-/* TODO: ปรับตำแหน่งรูป */
+
 .sec-6-group .clock-1 {
-  margin-top: -79%;
-  margin-left: 27%;
+  /* margin-top: -79%;
+  margin-left: 27%; */
+  margin-top: -78vw;
+  margin-left: 24vw;
   position: absolute;
   z-index: 2;
 }
@@ -39,8 +43,8 @@ body {
 }
 
 .sec-6-group .clock-2 {
-  margin-top: -87%;
-  margin-left: 32%;
+  margin-top: -89vw;
+  margin-left: 31vw;
   position: absolute;
   z-index: 2;
 }
@@ -50,8 +54,10 @@ body {
 }
 
 .sec-6-group .clock-3 {
-  margin-top: -84%;
-  margin-left: 45%;
+  /* margin-top: -84%;
+  margin-left: 45%; */
+  margin-top: -86vw;
+  margin-left: 46vw;
   position: absolute;
   z-index: 2;
 }
@@ -61,8 +67,10 @@ body {
 }
 
 .sec-6-group .clock-4 {
-  margin-top: -68%;
-  margin-left: 28%;
+  /* margin-top: -68%;
+  margin-left: 28%; */
+  margin-top: -67vw;
+  margin-left: 29vw;
   position: absolute;
   z-index: 2;
 }
@@ -72,8 +80,10 @@ body {
 }
 
 .sec-6-group .shirt-orange {
-  margin-top: -70%;
-  margin-left: 55%;
+  /* margin-top: -70%;
+  margin-left: 55%; */
+  margin-top: -68vw;
+  margin-left: 57vw;
   position: absolute;
   z-index: 3;
 }
@@ -84,20 +94,24 @@ body {
 }
 
 .sec-6-group .g04_woman {
-  margin-top: -78%;
-  margin-left: 30%;
+  /* margin-top: -78%;
+  margin-left: 30%; */
+  margin-top: -77vw;
+  margin-left: 28vw;
   position: absolute;
   z-index: 3;
 }
 
 .g04_woman img {
   /* width: 750px; */
-  width: 54.905vw;
+  width: 50.905vw;
 }
 
 .sec-6-group .g05_paper {
-  margin-top: -60%;
-  margin-left: 27%;
+  /* margin-top: -60%;
+  margin-left: 27%; */
+  margin-top: -56.5vw;
+  margin-left: 24vw;
   position: absolute;
   z-index: 5;
 }
@@ -173,7 +187,8 @@ body {
   /* padding: 20px; */
   padding: 1.464vw;
   z-index: 7;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: 1.168vw;
 }
 .banner_title {
   color: #000;
@@ -243,4 +258,27 @@ body {
 }
 .sec-6-bg img {
   width: full;
+}
+
+/* --------DELL-------- */
+@media screen and (min-width: 3840px) {
+  .sec-6 {
+    height: 250vh;
+  }
+}
+/* --------PC-------- */
+@media screen and (min-width: 1366px) and (max-width: 3839px) {
+  .sec-6 {
+    height: 220vh;
+  }
+}
+
+/* --------TABLET-------- */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  .sec-6 {
+    height: 170vh;
+  }
+}
+/* --------MOBILE-------- */
+@media screen and (min-width: 390px) and (max-width: 1023px) {
 }

@@ -24,7 +24,7 @@ gsap.set(".parallax", { scale: 1, yPercent: 0, xPercent: 0 });
 const tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".parallax",
-    scrub:1,
+    scrub: 1,
     start: "top+=250px top",
     end: "bottom+=1500",
   },
@@ -74,7 +74,7 @@ tl5
 
   .to(".parallax", {
     yPercent: -10,
-    xPercent: -26,
+    xPercent: -25,
     scale: 1.5,
     ease: "power4.out",
     duration: 2,
@@ -93,7 +93,7 @@ tl5
 
   .to(".parallax", {
     yPercent: -48,
-    xPercent: -26,
+    xPercent: -25,
     scale: 1.5,
     ease: "power4.out",
     duration: 2,
@@ -127,11 +127,10 @@ tl5
     opacity: 0,
     duration: 1,
   })
-
   .to(".parallax", {
-    yPercent: -8,
-    xPercent: 0,
     scale: 1,
+    yPercent: 0,
+    xPercent: 0,
     ease: "power4.out",
     duration: 2,
   })

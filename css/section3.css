@@ -206,11 +206,43 @@ body {
 .BornHS__Wrapper .BornHS__Input + .BornHS__Label:hover {
   transform: scale(1.5);
 }
-
-@media (min-width: 768px) {
+/* --------MOBILE+TABLET(vertical)-------- */
+@media only screen and (min-width: 390px) and (max-width: 1365px) {
   .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
     height: 30px;
     width: 30px;
+  }
+  .Content__Wrapper .BornHS__Title {
+    font-size: 2.5vw;
+    line-height: 2.46vw;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .Content__Wrapper p {
+    text-align: center;
+    font-size: 2.1vw;
+    margin: 0;
+    padding: 0;
+  }
+  .BornHS__Wrapper .BornHS__Modal__Content {
+    padding: 0.732vw;
+    width: 29.57vw;
+  }
+  #modal2.BornHS__Modal__Content {
+    margin-top: -16vw !important;
+    margin-left: -28vw !important;
+  }
+  #modal3.BornHS__Modal__Content {
+    margin-top: -21vw !important;
+    margin-left: -10vw !important;
+  }
+}
+
+/* --------PC-------- */
+@media only screen and (min-width: 1366px) {
+  .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
+    height: 2.196vw;
+    width: 2.196vw;
   }
 }
 .BornHS__Wrapper .BornHS__Input + .BornHS__Label:before,
@@ -249,12 +281,6 @@ body {
   visibility: visible;
 }
 
-@media only screen and (min-width: 1366px) {
-  .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
-    height: 2.196vw;
-    width: 2.196vw;
-  }
-}
 .BornHS__Wrapper .BornHS__Input + .BornHS__Label:before,
 .BornHS__Wrapper .BornHS__Input + .BornHS__Label:after {
   background: #fff;

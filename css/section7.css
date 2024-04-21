@@ -9,10 +9,12 @@ body {
 }
 
 .sec-7 {
-  margin-top: -10px;
+  /* margin-top: -10px; */
+  margin-top: -0.732vw;
   padding-top: 20vw;
   background-color: #1e1e1e;
-  height: 350vh;
+  /* height: 350vh; */
+  padding-bottom: 10vw;
   background-image: url(/img/assets/h/h00_bg.png);
   background-repeat: no-repeat;
   background-size: cover;

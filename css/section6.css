@@ -263,20 +263,21 @@ body {
 /* --------DELL-------- */
 @media screen and (min-width: 3840px) {
   .sec-6 {
-    height: 250vh;
+    height: 250vh !important;
   }
 }
 /* --------PC-------- */
-@media screen and (min-width: 1366px) and (max-width: 3839px) {
+@media screen and (min-width: 1301px) and (max-width: 3839px) {
   .sec-6 {
-    height: 220vh;
+    height: 220vh !important;
+    min-height: 250vh !important;
   }
 }
 
 /* --------TABLET-------- */
-@media screen and (min-width: 1024px) and (max-width: 1365px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
   .sec-6 {
-    height: 170vh;
+    height: 170vh !important;
   }
 }
 /* --------MOBILE-------- */

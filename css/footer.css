@@ -10,8 +10,12 @@ body {
 
 .footer {
   /* padding: 5px 0; */
-  padding: 0.586vw 0;
+  /* padding: 0.586vw 0; */
   background-color: #272727;
+  padding-block: 3.514vw 2.343vw;
+  display: flex;
+  row-gap: 2.928vw;
+  flex-direction: column;
 }
 .footer p {
   margin: 0;
@@ -20,4 +24,15 @@ body {
   font-size: 1.171vw;
   text-align: center;
   font-weight: 300;
+}
+
+.logofooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.196vw;
+}
+.logofooter img {
+  height: 3.66vw;
 }

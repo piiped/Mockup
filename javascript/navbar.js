@@ -81,7 +81,7 @@ document.addEventListener("scroll", function () {
     hood.getBoundingClientRect().bottom > 0
   ) {
     img.src = "/img/assets/logowhite.png";
-    console.log("hood");
+    // console.log("hood");
   } else {
     nav.classList.remove("dark");
     img.src = "/img/assets/logo.png";

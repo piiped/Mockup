@@ -107,17 +107,40 @@ gsap.to(".shirt-6", {
 //   },
 // });
 
-gsap.set(".BornHS__Modal__Input", { opacity: 0, scale: 0, yPercent: 0 });
-gsap.to(".BornHS__Modal__Input", {
-  opacity: 1,
-  scale: 1,
-  stagger: 0.3,
-  duration: 2,
-  ease: "power2.out",
+gsap.set(".BornHS__Modal__Input", { opacity: 0, scale: 0 });
+// gsap.to(".BornHS__Modal__Input", {
+//   opacity: 1,
+//   scale: 1,
+//   stagger: 0.3,
+//   duration: 2,
+//   ease: "power2.out",
+//   scrollTrigger: {
+//     trigger: ".shirt",
+//     scrub: 1,
+//     start: "top center",
+//     end: "bottom bottom ",
+//   },
+// });
+
+const btnsec3 = gsap.timeline({
+  defaults: { ease: "power2.out" },
   scrollTrigger: {
     trigger: ".shirt",
     scrub: 1,
-    start: "top center",
-    end: "bottom bottom ",
+    start: "top bottom-=200",
+    end: "bottom-=200 top ",
+    // markers: true,
   },
 });
+
+btnsec3
+  .to(
+    ".BornHS__Modal__Input",
+    { opacity: 1, scale: 1.4, stagger: 0.3, duration: 3, ease: "power2.out" },
+    "-=0.6"
+  )
+  .to(
+    ".BornHS__Modal__Input",
+    { opacity: 1, scale: 1, stagger: 0.3, duration: 3, ease: "power2.out" },
+    "-=0.6"
+  );

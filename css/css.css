@@ -62,10 +62,18 @@ html {
   width: 1.83vw;
   fill: #111;
 }
+
+.icon.dark svg {
+  /* width: 25px; */
+  width: 1.83vw;
+  fill: #fff;
+}
 .icon svg:hover {
   fill: #818181;
 }
-
+#logoweb {
+  transition: opacity 0.3s ease-in-out;
+}
 .slide_nav {
   /* height: 230px; */
   height: 16.837vw;

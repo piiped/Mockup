@@ -41,3 +41,49 @@ document.querySelectorAll("a[href]").forEach((a) => {
 
 // Scroll to the element in the URL's hash on load
 scrollToHash(window.location.hash);
+
+//change color of navbar
+document.addEventListener("scroll", function () {
+  const sec2 = document.querySelector("#section2");
+  const sec6 = document.querySelector("#section6");
+  const befsec6 = document.querySelector("#befsec6");
+  const sec8 = document.querySelector("#section8");
+  const hood = document.querySelector("#hood");
+  const nav = document.querySelector(".icon");
+  var img = document.getElementById("logoweb");
+
+  if (
+    sec2.getBoundingClientRect().top <= 0 &&
+    sec2.getBoundingClientRect().bottom > 0
+  ) {
+    nav.classList.add("dark");
+    img.src = "/img/assets/logowhite.png";
+  } else if (
+    sec6.getBoundingClientRect().top <= 0 &&
+    sec6.getBoundingClientRect().bottom > 0
+  ) {
+    nav.classList.add("dark");
+    img.src = "/img/assets/logowhite.png";
+  } else if (
+    befsec6.getBoundingClientRect().top <= 0 &&
+    befsec6.getBoundingClientRect().bottom > 0
+  ) {
+    nav.classList.add("dark");
+    img.src = "/img/assets/logowhite.png";
+  } else if (
+    sec8.getBoundingClientRect().top <= 0 &&
+    sec8.getBoundingClientRect().bottom > 0
+  ) {
+    nav.classList.add("dark");
+    img.src = "/img/assets/logowhite.png";
+  } else if (
+    hood.getBoundingClientRect().top <= 250 &&
+    hood.getBoundingClientRect().bottom > 0
+  ) {
+    img.src = "/img/assets/logowhite.png";
+    console.log("hood");
+  } else {
+    nav.classList.remove("dark");
+    img.src = "/img/assets/logo.png";
+  }
+});

@@ -97,8 +97,6 @@ gsap.to(".shirt-6", {
   },
 });
 
-
-
 gsap.set(".BornHS__Modal__Input", { opacity: 0, scale: 0, yPercent: 50 });
 const btnsec3 = gsap.timeline({
   defaults: { ease: "power2.out" },
@@ -107,29 +105,41 @@ const btnsec3 = gsap.timeline({
     scrub: 1,
     start: "top bottom-=200",
     end: "bottom-=300 top ",
-    
   },
 });
 
 btnsec3
   .to(
-    ".BornHS__Modal__Input",{ 
-      opacity: 1, 
-      scale: 1.4, 
-      stagger: 0.3, 
-      duration: 3, 
+    ".BornHS__Modal__Input",
+    {
+      opacity: 1,
+      scale: 1.4,
+      stagger: 0.3,
+      duration: 3,
       ease: "power2.out",
-      yPercent: -20 },
+      // yPercent: -20,
+    },
     "-=0.6"
   )
   .to(
     ".BornHS__Modal__Input",
-    { opacity: 1,
-      scale: 1, 
-      stagger: 0.3, 
-      duration: 3, 
-      ease: "power2.out" ,
-      yPercent: -20
+    {
+      opacity: 1,
+      scale: 1,
+      stagger: 0.3,
+      duration: 3,
+      ease: "power2.out",
+      // yPercent: -20,
     },
     "-=0.6"
   );
+
+gsap.to(".BornHS__Modal__Input", {
+  yPercent: -70,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".shirt-img-9",
+    scrub: 4,
+    // markers: true,
+  },
+});

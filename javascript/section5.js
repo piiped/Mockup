@@ -45,7 +45,7 @@ tl5
     duration: 1,
   })
   .to(".parallax", {
-    duration: 2,
+    duration: 5,
   })
   .to("#sec5-1", {
     opacity: 0,
@@ -65,7 +65,7 @@ tl5
     duration: 2,
   })
   .to(".parallax", {
-    duration: 2,
+    duration: 5,
   })
   .to("#sec5-2", {
     opacity: 0,
@@ -84,7 +84,7 @@ tl5
     duration: 1,
   })
   .to(".parallax", {
-    duration: 2,
+    duration: 5,
   })
   .to("#sec5-3", {
     opacity: 0,
@@ -103,7 +103,7 @@ tl5
     duration: 1,
   })
   .to(".parallax", {
-    duration: 2,
+    duration: 5,
   })
   .to("#sec5-4", {
     opacity: 0,
@@ -121,7 +121,7 @@ tl5
     duration: 1,
   })
   .to(".parallax", {
-    duration: 2,
+    duration: 5,
   })
   .to("#sec5-5", {
     opacity: 0,

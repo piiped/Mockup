@@ -32,8 +32,8 @@ body {
   line-height: 10.249vw;
   text-align: center;
   font-weight: 800;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #1e1e1e, 1px 1px 0 #1e1e1e, 1px -1px 0 #1e1e1e,
+    -1px -1px 0 #1e1e1e;
 }
 .sec-9-title2 p {
   color: #1e1e1e;
@@ -44,8 +44,8 @@ body {
   line-height: 7.857vw;
   text-align: center;
   font-weight: 800;
-  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-    -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #1e1e1e, 1px 1px 0 #1e1e1e, 1px -1px 0 #1e1e1e,
+    -1px -1px 0 #1e1e1e;
 }
 .sec-9-hover {
   margin-top: 10px;
@@ -92,7 +92,7 @@ body {
   /* width: 250px; */
   width: 18.302vw;
   height: 100%;
-  transform: translateY(60%);
+  transform: translateY(70%);
   transition: all 0.8s ease-in-out;
 }
 

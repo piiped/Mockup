@@ -107,7 +107,7 @@ const btnsec3 = gsap.timeline({
     scrub: 1,
     start: "top bottom-=200",
     end: "bottom-=300 top ",
-    markers: true,
+    
   },
 });
 

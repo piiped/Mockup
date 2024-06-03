@@ -1,1 +1,1 @@
-เพวขี้
+Hello! This is our senoir project from King Mongkut's University of Technology Thonburi (KMUTT). We developed the website about problem of fast fashion. Project name is The parallax scrolling website combines collage art techniques: The problems of fast fashion. We use HTML, CSS, Javascript, and GSAP.
